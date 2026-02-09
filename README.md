@@ -93,7 +93,6 @@ examples/                  # Sample configs & demo data
 reports/                   # Report generators (DOCX, PPTX)
 results/                   # Generated reports & presentations
 runs/                      # Per-run output directories
-lt_demo/                   # Leadership presentation materials
 ```
 
 ## Requirements

@@ -184,7 +184,6 @@ restyle_tests/
   reports/                  # Report generators (DOCX, PPTX)
   results/                  # Generated reports, presentations
   runs/                     # Per-run output (one dir per benchmark run)
-  lt_demo/                  # Leadership presentation materials
 ```
 
 ## 9. Troubleshooting

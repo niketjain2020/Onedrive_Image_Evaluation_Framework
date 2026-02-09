@@ -55,3 +55,13 @@ runs/*/restyled/
 
 # Backup files from Excel format migration
 *.xls.bak
+
+# Internal presentation materials
+lt_demo/
+
+# One-off scripts and output from bash sessions
+results/*.py
+results/teams_*.md
+results/browser_profile*/
+results/image_*/
+results/*.mp4

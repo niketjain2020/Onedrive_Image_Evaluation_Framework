@@ -17,7 +17,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 RESULTS_DIR = PROJECT_ROOT / "results"
 RUNS_DIR = PROJECT_ROOT / "runs"
 REPORTS_DIR = PROJECT_ROOT / "reports"
-LT_DEMO_DIR = PROJECT_ROOT / "lt_demo"
+# LT_DEMO_DIR removed — internal presentation material, not tracked
 SCREENSHOTS_DIR = PROJECT_ROOT / "screenshots"
 RUBRICS_DIR = PROJECT_ROOT / "rubrics"
 AGENTS_DIR = PROJECT_ROOT / "agents"
@@ -88,7 +88,7 @@ if __name__ == "__main__":
     print(f"  RESULTS_DIR:           {RESULTS_DIR}")
     print(f"  RUNS_DIR:              {RUNS_DIR}")
     print(f"  REPORTS_DIR:           {REPORTS_DIR}")
-    print(f"  LT_DEMO_DIR:          {LT_DEMO_DIR}")
+    # LT_DEMO_DIR removed
     print(f"  SCREENSHOTS_DIR:       {SCREENSHOTS_DIR}")
     print(f"  RUBRICS_DIR:           {RUBRICS_DIR}")
     print(f"  AGENTS_DIR:            {AGENTS_DIR}")
