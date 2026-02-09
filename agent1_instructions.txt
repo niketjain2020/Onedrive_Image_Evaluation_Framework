@@ -1,0 +1,16 @@
+Test AI Restyle on Image 1 with 3 styles (Movie Poster, Plush Toy, Anime).
+
+Steps:
+1. Navigate to https://onedrive.live.com/?view=8
+2. If on Files view, click Photos tab
+3. Click the FIRST image in the gallery
+4. For each style (Movie Poster, Plush Toy, Anime):
+   - Click "Restyle with AI" menu button
+   - Wait for panel with "Let's enhance this shot!"
+   - Click the style image (e.g. img[alt="Movie Poster"])
+   - Click "Send" button
+   - Wait 90 seconds for generation to complete
+   - Take screenshot and save to: results/image_1/ (relative to project root)
+   - Click "Reset" button before next style
+
+Report which styles succeeded and how long each took.

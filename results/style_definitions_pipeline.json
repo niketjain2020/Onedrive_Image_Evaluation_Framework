@@ -1,0 +1,47 @@
+{
+  "pipeline_id": "dual-llm-review-2026-02-03",
+  "styles": [
+    {
+      "id": "ghibli",
+      "name": "Studio Ghibli",
+      "definition": {
+        "visual_characteristics": "Soft, hand-painted anime aesthetic with visible brushstrokes, dreamy atmospheric lighting, gentle gradients, and whimsical environmental details. Characters have expressive yet simplified features with large emotive eyes.",
+        "color_palette": "Warm earth tones, soft pastels, sky blues, sunset oranges, forest greens. Colors blend seamlessly with soft edges rather than hard lines.",
+        "textures": "Watercolor-like washes, subtle paper grain texture, hand-painted clouds and foliage, organic imperfections that suggest traditional media.",
+        "mood": "Nostalgic, peaceful, wonder-filled, emotionally resonant. Evokes childhood memories and gentle adventure.",
+        "artistic_intent": "Transform everyday moments into scenes worthy of a Miyazaki film - finding magic in the mundane.",
+        "must_preserve": "Facial identity and recognition, body pose and positioning, scene composition, emotional expression, relationship between subjects",
+        "should_change": "Rendering style to hand-painted anime, lighting to soft atmospheric glow, backgrounds to illustrated environments, skin to smooth anime aesthetic, clothing to illustrated fabric"
+      },
+      "transformation_prompt": "Transform this photo into a Studio Ghibli animated film still. Use soft hand-painted watercolor textures with visible brushstrokes. Keep the person's face fully recognizable with their exact features, just rendered in Miyazaki's gentle anime style with expressive eyes. Add dreamy atmospheric lighting with warm golden hour tones. The background should feel like a scene from Spirited Away or Howl's Moving Castle - magical yet grounded. Preserve the original pose and expression exactly."
+    },
+    {
+      "id": "claymation",
+      "name": "Claymation Figurine",
+      "definition": {
+        "visual_characteristics": "3D stop-motion aesthetic with smooth polymer clay surfaces, rounded simplified features, miniature diorama setting. Characters appear as handcrafted collectible figurines with subtle fingerprint textures.",
+        "color_palette": "Saturated but matte colors, warm studio lighting, soft shadows. Primary colors with clay-like opacity rather than glossy surfaces.",
+        "textures": "Smooth matte polymer clay, subtle surface imperfections suggesting handmade quality, visible seams at joints, miniature props with tactile realism.",
+        "mood": "Playful, whimsical, collectible, artisanal. Evokes Laika Studios films like Coraline or Wallace & Gromit.",
+        "artistic_intent": "Transform people into charming stop-motion characters that look like they belong in a Wes Anderson animated film.",
+        "must_preserve": "Facial identity translated to clay form, pose and gesture, clothing style and colors, scene context, number of subjects",
+        "should_change": "Medium to sculpted clay, proportions slightly stylized, environment to miniature diorama, lighting to controlled studio setup, textures to matte tactile surfaces"
+      },
+      "transformation_prompt": "Transform this photo into a handcrafted claymation figurine scene like Laika Studios or Wallace & Gromit. The person should look like a detailed polymer clay sculpture with smooth matte surfaces and subtle fingerprint textures. Keep their face recognizable - same features, just translated into charming stop-motion style with slightly rounded proportions. Add warm studio lighting with soft shadows. The background should feel like a miniature diorama set. Artisanal collectible quality."
+    },
+    {
+      "id": "film_noir",
+      "name": "Cinematic Film Noir",
+      "definition": {
+        "visual_characteristics": "High-contrast black and white with dramatic chiaroscuro lighting, deep shadows, venetian blind patterns, rain-slicked surfaces, 1940s Hollywood cinematography aesthetic.",
+        "color_palette": "Monochromatic with rich blacks, bright whites, and full tonal range. Occasional selective color accent (red lips, neon sign) optional.",
+        "textures": "Film grain, slight vignetting, soft focus backgrounds with sharp foreground subjects, atmospheric haze or smoke.",
+        "mood": "Mysterious, dramatic, sophisticated, cinematic tension. Evokes classic detective films and femme fatale imagery.",
+        "artistic_intent": "Transform ordinary portraits into frames from a lost 1940s noir thriller - everyone becomes the protagonist of their own mystery.",
+        "must_preserve": "Facial identity and features, pose and body language, compositional framing, emotional expression, subject relationships",
+        "should_change": "Color to dramatic B&W, lighting to high-contrast chiaroscuro, atmosphere to moody noir, background to cinematic setting, overall mood to mysterious tension"
+      },
+      "transformation_prompt": "Transform this photo into a dramatic 1940s film noir movie still. Convert to high-contrast black and white with rich shadows and bright highlights. Keep the person's face and features completely recognizable. Add dramatic chiaroscuro lighting with deep shadows across the face. Include subtle film grain and slight vignetting. The mood should feel like a classic Humphrey Bogart or Lauren Bacall film - mysterious, sophisticated, cinematic. Preserve the exact pose and expression."
+    }
+  ]
+}

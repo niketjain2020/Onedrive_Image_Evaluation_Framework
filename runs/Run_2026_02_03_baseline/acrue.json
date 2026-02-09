@@ -1,0 +1,2180 @@
+[
+  {
+    "style": "Anime",
+    "dimensions": {
+      "accuracy": {
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit anime-style large expressive eyes?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "Pelican doesn't have expressive eyes in either picture."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The subject is clearly still a pelican."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use anime-typical color saturation and cel-shading?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The colors are more vibrant than the original photo and there's some cel-shading in the background."
+          },
+          {
+            "id": "A4",
+            "question": "Are facial proportions adjusted in anime style while preserving identity?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The pelican face doesn't look like the proportions are in anime style"
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional anime illustration quality?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "The quality of the anime illustration is somewhat lacking when zoomed in. It's okay but not professional."
+          }
+        ],
+        "passed": 2,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 1.84
+      },
+      "completeness": {
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the anime style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The entire image appears to be converted to an anime-style illustration, no photo patches."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background feel like it belongs in an anime scene?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The background is stylized and looks like a background you might see in an anime."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The pelican and the other birds appear structurally intact. No obvious warping."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (vibrant but not garish)?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The colors are indeed vibrant but not overly saturated to the point of being garish."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements (people, hair, clothing, background) stylistically consistent?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "All elements including the bird, branches, and background are consistent with the anime style."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 4.6
+      },
+      "relevance": {
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble professional anime or manga illustrations?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "It has the visual qualities of a professionally produced anime background."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style consistent with popular anime aesthetics (Studio Ghibli, modern anime)?",
+            "answer": "Yes",
+            "confidence": 3,
+            "evidence": "The art style is more closely to modern anime styles."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel dynamic, expressive, and true to anime genre?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "The mood is somewhat subdued, lacking the usual dynamic and expressive feel of anime."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inconsistent with anime style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "I don't see any inconsistencies."
+          }
+        ],
+        "passed": 3,
+        "total": 4,
+        "avg_confidence": 4,
+        "dimension_score": 3.0
+      },
+      "usefulness": {
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable as anime fan art or profile picture?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "It would work as a profile picture or fan art."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "No noticeable artifacts or glitches are apparent in the image."
+          },
+          {
+            "id": "U3",
+            "question": "Is the subject clearly recognizable in the anime style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The pelican is still clearly recognizable."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for digital display or printing?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image resolution is sufficiently high for digital use."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.5,
+        "dimension_score": 4.5
+      },
+      "exceptional": {
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it was drawn by a professional anime artist?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "While visually appealing, it doesn't quite reach the finesse of a professional anime artist."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation capture the charm and appeal of anime characters?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "Doesn't really make the bird cute in the way anime would."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as 'my anime version'?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "Not something that would make someone feel too excited to share."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'anime protagonist' quality?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "Pelican isn't a protagonist, it's a pelican in the background."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated anime images?",
+            "answer": "No",
+            "confidence": 3,
+            "evidence": "It blends in with the average quality output."
+          }
+        ],
+        "passed": 0,
+        "total": 5,
+        "avg_confidence": 4,
+        "dimension_score": 0.0
+      }
+    },
+    "scores": {
+      "accuracy": {
+        "passed": "2/5",
+        "avg_confidence": 4.6,
+        "weighted": 1.84
+      },
+      "completeness": {
+        "passed": "5/5",
+        "avg_confidence": 4.6,
+        "weighted": 4.6
+      },
+      "relevance": {
+        "passed": "3/4",
+        "avg_confidence": 4.0,
+        "weighted": 1.5
+      },
+      "usefulness": {
+        "passed": "4/4",
+        "avg_confidence": 4.5,
+        "weighted": 2.25
+      },
+      "exceptional": {
+        "passed": "0/5",
+        "avg_confidence": 4.0,
+        "weighted": 0.0
+      }
+    },
+    "total": 10.19,
+    "max_possible": 25.0,
+    "percentage": 40.76,
+    "grade": "F",
+    "summary": "The anime style transfer is partially successful, changing the background to an anime illustration, but it doesn't quite reach the level of a professional artwork. The subject remains recognizable, but the output overall lacks the expressive or exceptional qualities of anime.",
+    "evaluation_id": "img_001_anime_20260204000556",
+    "original": "originals/img_001.png",
+    "restyled": "restyled/img_001_anime.png",
+    "timestamp": "2026-02-04T00:05:56.759907"
+  },
+  {
+    "style": "Pop Art",
+    "dimensions": {
+      "accuracy": {
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit pop art halftone dot patterns or Ben-Day dots?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is covered in halftone dot patterns, a key element of pop art."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The pelican is clearly identifiable despite the stylized rendering."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use bold, limited color palette typical of pop art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image uses a vibrant and limited color palette, characteristic of the Pop Art style."
+          },
+          {
+            "id": "A4",
+            "question": "Are outlines strong and graphic in pop art style?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The subject and background elements have defined, bold outlines typical of pop art graphics."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional pop art illustration quality?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image quality looks like a professional pop art illustration."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 4.6
+      },
+      "completeness": {
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the pop art style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The entire image is consistently rendered in the Pop Art style."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background use pop art elements (solid colors, dots, speech bubbles)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The background includes dots and bold colors, consistent with the style."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The pelican's structure is intact and appears normal, without warping."
+          },
+          {
+            "id": "C4",
+            "question": "Is the color blocking bold and distinct as expected in pop art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The color blocking is bold and distinct, as expected in pop art."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements stylistically consistent with pop art aesthetic?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "All elements, including the subject and background, are stylistically consistent with the pop art aesthetic."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 5.0,
+        "dimension_score": 5.0
+      },
+      "relevance": {
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble works by Warhol, Lichtenstein, or comic book art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style clearly resembles works by Warhol and Lichtenstein, featuring halftone dots and bold colors."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style bold, graphic, and visually striking?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style is undeniably bold, graphic, and visually striking."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel energetic, commercial, and culturally iconic?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image conveys an energetic and commercial mood typical of pop art."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inconsistent with pop art style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "There are no noticeable elements inconsistent with the pop art style."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.75,
+        "dimension_score": 4.75
+      },
+      "usefulness": {
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable for posters, merchandise, or social media?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The output is perfectly suitable for posters, merchandise, or social media."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is free of obvious digital artifacts or glitches."
+          },
+          {
+            "id": "U3",
+            "question": "Is the subject clearly recognizable despite the simplified style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The subject remains clearly recognizable despite the stylistic simplification."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for printing or digital display?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The resolution seems adequate for printing or digital display."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.75,
+        "dimension_score": 4.75
+      },
+      "exceptional": {
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it could be displayed in a modern art museum?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "It has artistic merit and aesthetic quality that feels modern."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation capture the bold, iconic feel of classic pop art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image captures the essence of bold and iconic pop art very well."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as their 'Warhol-style portrait'?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "It's shareable and stylish enough for users to be excited about it."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'iconic poster' quality?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image has poster-like clarity."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated pop art images?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The overall quality of the image stands out."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.2,
+        "dimension_score": 4.2
+      }
+    },
+    "scores": {
+      "accuracy": {
+        "passed": "5/5",
+        "avg_confidence": 4.6,
+        "weighted": 4.6
+      },
+      "completeness": {
+        "passed": "5/5",
+        "avg_confidence": 5.0,
+        "weighted": 5.0
+      },
+      "relevance": {
+        "passed": "4/4",
+        "avg_confidence": 4.75,
+        "weighted": 2.375
+      },
+      "usefulness": {
+        "passed": "4/4",
+        "avg_confidence": 4.75,
+        "weighted": 2.375
+      },
+      "exceptional": {
+        "passed": "5/5",
+        "avg_confidence": 4.2,
+        "weighted": 8.4
+      }
+    },
+    "total": 22.75,
+    "max_possible": 25.0,
+    "percentage": 91.0,
+    "grade": "A+",
+    "summary": "The AI successfully transformed the image into a compelling pop art piece. The application of halftone dots, bold color palette, and strong outlines is consistent and captures the essence of Warhol/Lichtenstein's style, resulting in a high-quality, usable output that feels modern and artistic.",
+    "evaluation_id": "img_001_pop_art_20260204000616",
+    "original": "originals/img_001.png",
+    "restyled": "restyled/img_001_pop_art.png",
+    "timestamp": "2026-02-04T00:06:16.254496"
+  },
+  {
+    "style": "Storybook",
+    "dimensions": {
+      "accuracy": {
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit soft, watercolor-like illustrated textures?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image has a definite watercolor texture."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person/scene from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The pelican is clearly recognizable."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use a warm, inviting color palette typical of children's books?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The colors are muted and generally warm."
+          },
+          {
+            "id": "A4",
+            "question": "Are facial expressions and poses preserved from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The pelican's pose is consistent with the original."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional storybook illustrations?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The style is well-executed and looks similar to professional children's book illustrations."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 4.6
+      },
+      "completeness": {
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the storybook style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style is uniformly applied throughout the image."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background feel like it belongs in a children's book scene?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The background has been stylised to fit the aesthetic."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The pelican and supporting branches all appear structurally sound."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (not too subtle, not overdone)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The watercolor effect is clear without being overwhelming."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements (people, objects, background) stylistically consistent?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style is applied consistently to all elements in the scene."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 5.0,
+        "dimension_score": 5.0
+      },
+      "relevance": {
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble illustrations from beloved children's books?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style is reminiscent of classic watercolor children's book illustrations."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style gentle, soft, and age-appropriate for children's content?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The overall aesthetic is very gentle and suitable for children."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel warm, nostalgic, and emotionally comforting?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The colours and rendering create a warm and nostalgic feeling."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inappropriate for children?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The content is innocuous and appropriate for all ages."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 5.0,
+        "dimension_score": 5.0
+      },
+      "usefulness": {
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable for a children's book page or nursery decor?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style is perfect for children's books and nursery decoration."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is clean and free of any noticeable glitches."
+          },
+          {
+            "id": "U3",
+            "question": "Would parents feel comfortable using this for family-oriented content?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is safe and appropriate for family content."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for printing?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The resolution appears sufficient for most printing needs."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.75,
+        "dimension_score": 4.75
+      },
+      "exceptional": {
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it was illustrated by a professional children's book artist?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "It has a professional look."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation evoke feelings of warmth, joy, and childhood wonder?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The artistic choices provide a nostalgic feeling."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as 'my family as a storybook illustration'?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The result is appealing and shareable."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'I want to frame this' quality?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The quality is sufficient for printing and framing."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated storybook images?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "It is an appealing outcome with good attention to detail."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.0,
+        "dimension_score": 4.0
+      }
+    },
+    "scores": {
+      "accuracy": {
+        "passed": "5/5",
+        "avg_confidence": 4.6,
+        "weighted": 4.6
+      },
+      "completeness": {
+        "passed": "5/5",
+        "avg_confidence": 5.0,
+        "weighted": 5.0
+      },
+      "relevance": {
+        "passed": "4/4",
+        "avg_confidence": 5.0,
+        "weighted": 2.5
+      },
+      "usefulness": {
+        "passed": "4/4",
+        "avg_confidence": 4.75,
+        "weighted": 2.375
+      },
+      "exceptional": {
+        "passed": "5/5",
+        "avg_confidence": 4.0,
+        "weighted": 8.0
+      }
+    },
+    "total": 22.475,
+    "max_possible": 25.0,
+    "percentage": 89.9,
+    "grade": "A",
+    "summary": "The AI successfully transformed the image into a storybook-style illustration with watercolor textures, warm colors, and consistent application of the aesthetic. It evokes a feeling of childhood wonder and nostalgia while remaining free of artifacts, creating a useful and aesthetically pleasing output.",
+    "evaluation_id": "img_001_storybook_20260204000636",
+    "original": "originals/img_001.png",
+    "restyled": "restyled/img_001_storybook.png",
+    "timestamp": "2026-02-04T00:06:36.137099"
+  },
+  {
+    "style": "Anime",
+    "dimensions": {
+      "accuracy": {
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit anime-style large expressive eyes?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "There are no eyes in the image, so this is not applicable."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person from the original?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "There is no person in the image, only food, therefore recognition is not applicable."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use anime-typical color saturation and cel-shading?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "The image doesn't demonstrate color saturation typical of anime. Also, there is no cel-shading in the image"
+          },
+          {
+            "id": "A4",
+            "question": "Are facial proportions adjusted in anime style while preserving identity?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "There is no face in the image, so this isn't applicable."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional anime illustration quality?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "The style is not close to a professional anime illustration quality. It is missing detail and finesse, and lacks a truly hand-drawn quality."
+          }
+        ],
+        "passed": 0,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 0.0
+      },
+      "completeness": {
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the anime style applied to the entire image (no photo patches)?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "There are many photographic elements and patches of un-styled image remaining."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background feel like it belongs in an anime scene?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "The background doesn't look like an anime scene. It maintains a realistic style, while the foreground elements attempt a style transfer."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "There are no people in the image, so there are no limbs or faces to be warped. The food looks structurally intact."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (vibrant but not garish)?",
+            "answer": "No",
+            "confidence": 3,
+            "evidence": "The style is not vibrant, which does not reflect most anime. The saturation is closer to the original photo."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements (people, hair, clothing, background) stylistically consistent?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The elements are *not* stylistically consistent. There are no people, hair or clothing, but the dessert and background are of different styles."
+          }
+        ],
+        "passed": 1,
+        "total": 5,
+        "avg_confidence": 4.4,
+        "dimension_score": 0.88
+      },
+      "relevance": {
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble professional anime or manga illustrations?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The final image does not resemble professional anime or manga illustrations. The lines are not defined, the colors are washed out, and the style transfer is incomplete."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style consistent with popular anime aesthetics (Studio Ghibli, modern anime)?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The generated style is not consistent with any notable anime aesthetics, such as those from Studio Ghibli or any modern anime production."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel dynamic, expressive, and true to anime genre?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The mood is subdued and not dynamic or expressive, therefore missing an anime's true quality."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inconsistent with anime style?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The photograph-like background elements are inconsistent with anime style."
+          }
+        ],
+        "passed": 0,
+        "total": 4,
+        "avg_confidence": 5.0,
+        "dimension_score": 0.0
+      },
+      "usefulness": {
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable as anime fan art or profile picture?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "It doesn't meet the quality expectations for fan art or a profile picture."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image is free of glitches, but the style transfer leaves artifacts."
+          },
+          {
+            "id": "U3",
+            "question": "Is the subject clearly recognizable in the anime style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The subject (the dessert) is recognizable, but not in an anime style."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for digital display or printing?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The resolution appears to be adequate for digital display."
+          }
+        ],
+        "passed": 3,
+        "total": 4,
+        "avg_confidence": 4.5,
+        "dimension_score": 3.375
+      },
+      "exceptional": {
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it was drawn by a professional anime artist?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The style is very far from the quality of a professional anime artist's drawing."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation capture the charm and appeal of anime characters?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The charm and appeal is not captured as the image is of food and not characters."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as 'my anime version'?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The quality is such that a user would not be excited to share it."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'anime protagonist' quality?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "Not applicable, as there is no protagonist."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated anime images?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "The result is typical of AI-generated images. It doesn't stand out in comparison to other AI anime transformations."
+          }
+        ],
+        "passed": 0,
+        "total": 5,
+        "avg_confidence": 4.8,
+        "dimension_score": 0.0
+      }
+    },
+    "scores": {
+      "accuracy": {
+        "passed": "0/5",
+        "avg_confidence": 4.6,
+        "weighted": 0.0
+      },
+      "completeness": {
+        "passed": "1/5",
+        "avg_confidence": 4.4,
+        "weighted": 0.88
+      },
+      "relevance": {
+        "passed": "0/4",
+        "avg_confidence": 5.0,
+        "weighted": 0.0
+      },
+      "usefulness": {
+        "passed": "3/4",
+        "avg_confidence": 4.5,
+        "weighted": 1.6875
+      },
+      "exceptional": {
+        "passed": "0/5",
+        "avg_confidence": 4.8,
+        "weighted": 0.0
+      }
+    },
+    "total": 2.5675,
+    "max_possible": 25.0,
+    "percentage": 10.27,
+    "grade": "F",
+    "summary": "The anime style transfer was largely unsuccessful in this image. The food subject remained clearly recognizable, but did not capture a true anime aesthetic.  The most significant failures were inconsistent style application and a lack of detail.",
+    "evaluation_id": "img_002_anime_20260204000656",
+    "original": "originals/img_002.png",
+    "restyled": "restyled/img_002_anime.png",
+    "timestamp": "2026-02-04T00:06:56.898150"
+  },
+  {
+    "style": "Pop Art",
+    "dimensions": {
+      "accuracy": {
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit pop art halftone dot patterns or Ben-Day dots?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image clearly shows halftone dots throughout."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The tiramisu and other food items are still clearly identifiable."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use bold, limited color palette typical of pop art?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The color palette is bold and uses distinct, limited colors."
+          },
+          {
+            "id": "A4",
+            "question": "Are outlines strong and graphic in pop art style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "Outlines around objects are strong and well-defined."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional pop art illustration quality?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image closely resembles the aesthetic of professional pop art illustration."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 4.6
+      },
+      "completeness": {
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the pop art style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style is consistently applied across the entire image."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background use pop art elements (solid colors, dots, speech bubbles)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The background incorporates halftone dots and bold colors, characteristic of pop art."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "All elements (tiramisu, drinks etc.) maintain their structural integrity."
+          },
+          {
+            "id": "C4",
+            "question": "Is the color blocking bold and distinct as expected in pop art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "Colors are applied in bold blocks, typical for pop art."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements stylistically consistent with pop art aesthetic?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "All elements within the image adhere to the pop art style."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 5.0,
+        "dimension_score": 5.0
+      },
+      "relevance": {
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble works by Warhol, Lichtenstein, or comic book art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The halftone dots and bold colors directly evoke the style of Warhol and Lichtenstein."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style bold, graphic, and visually striking?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is indeed bold, graphic and visually striking."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel energetic, commercial, and culturally iconic?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The bold style gives an energetic and iconic feel."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inconsistent with pop art style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image avoids any elements that would detract from the pop art aesthetic."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.75,
+        "dimension_score": 4.75
+      },
+      "usefulness": {
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable for posters, merchandise, or social media?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image would be perfect for posters, merchandise, or social media content."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image looks clear and is free of artifacts or glitches."
+          },
+          {
+            "id": "U3",
+            "question": "Is the subject clearly recognizable despite the simplified style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The subject (the food) is recognizable, despite the style transformation."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for printing or digital display?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The resolution appears suitable for printing or digital display."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 5.0,
+        "dimension_score": 5.0
+      },
+      "exceptional": {
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it could be displayed in a modern art museum?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image has a high-quality, modern art feel."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation capture the bold, iconic feel of classic pop art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The transformation accurately captures the essence of classic pop art."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as their 'Warhol-style portrait'?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is exciting and shareable due to its engaging style."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'iconic poster' quality?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "It has a striking visual quality suitable for an iconic poster."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated pop art images?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The quality is high, making it stand out against other AI-generated pop art."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.4,
+        "dimension_score": 4.4
+      }
+    },
+    "scores": {
+      "accuracy": {
+        "passed": "5/5",
+        "avg_confidence": 4.6,
+        "weighted": 4.6
+      },
+      "completeness": {
+        "passed": "5/5",
+        "avg_confidence": 5.0,
+        "weighted": 5.0
+      },
+      "relevance": {
+        "passed": "4/4",
+        "avg_confidence": 4.75,
+        "weighted": 2.375
+      },
+      "usefulness": {
+        "passed": "4/4",
+        "avg_confidence": 5.0,
+        "weighted": 2.5
+      },
+      "exceptional": {
+        "passed": "5/5",
+        "avg_confidence": 4.4,
+        "weighted": 8.8
+      }
+    },
+    "total": 23.275,
+    "max_possible": 25.0,
+    "percentage": 93.1,
+    "grade": "A+",
+    "summary": "This image successfully transforms a food picture into a vibrant pop art piece with halftone dots, strong outlines, and bold colors. The result effectively captures the essence of Warhol and Lichtenstein, making it a high-quality, shareable transformation perfect for posters or social media.",
+    "evaluation_id": "img_002_pop_art_20260204000717",
+    "original": "originals/img_002.png",
+    "restyled": "restyled/img_002_pop_art.png",
+    "timestamp": "2026-02-04T00:07:17.372027"
+  },
+  {
+    "style": "Storybook",
+    "dimensions": {
+      "accuracy": {
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit soft, watercolor-like illustrated textures?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image has a clear watercolor texture."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person/scene from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The dessert is still clearly identifiable as a tiramisu with a panna cotta."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use a warm, inviting color palette typical of children's books?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image is mostly warm with browns, yellows and beige tones."
+          },
+          {
+            "id": "A4",
+            "question": "Are facial expressions and poses preserved from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The food item shapes and proportions are preserved."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional storybook illustrations?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The style effectively simulates watercolor illustrations found in children's books."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 4.6
+      },
+      "completeness": {
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the storybook style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The watercolor style covers all areas of the image."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background feel like it belongs in a children's book scene?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The background is rendered in a soft, illustrative style that blends well with the subject."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The food items are structurally sound and recognizable."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (not too subtle, not overdone)?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The colors are saturated enough to be vibrant, but not overly intense."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements (people, objects, background) stylistically consistent?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "All elements in the image have the same watercolor aesthetic."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 4.6
+      },
+      "relevance": {
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble illustrations from beloved children's books?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The style is reminiscent of classic watercolor children's book illustrations."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style gentle, soft, and age-appropriate for children's content?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The watercolor textures and soft colors create a gentle and appropriate aesthetic."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel warm, nostalgic, and emotionally comforting?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The color palette and illustrative style create a sense of warmth and nostalgia."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inappropriate for children?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The subject and style are entirely appropriate for children."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.5,
+        "dimension_score": 4.5
+      },
+      "usefulness": {
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable for a children's book page or nursery decor?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The style and subject matter make it appropriate for children's media."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is clean and free of noticeable artifacts."
+          },
+          {
+            "id": "U3",
+            "question": "Would parents feel comfortable using this for family-oriented content?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The content is completely family-friendly."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for printing?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The details are maintained well with good resolution."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.5,
+        "dimension_score": 4.5
+      },
+      "exceptional": {
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it was illustrated by a professional children's book artist?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The quality is high and the style is consistent with professional illustrations."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation evoke feelings of warmth, joy, and childhood wonder?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The soft colors and watercolor texture elicit positive emotions."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as 'my family as a storybook illustration'?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The cute style would be appealing for sharing."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'I want to frame this' quality?",
+            "answer": "Yes",
+            "confidence": 3,
+            "evidence": "The style and subject are aesthetically pleasing."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated storybook images?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The style is well-executed."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 3.8,
+        "dimension_score": 3.8
+      }
+    },
+    "scores": {
+      "accuracy": {
+        "passed": "5/5",
+        "avg_confidence": 4.6,
+        "weighted": 4.6
+      },
+      "completeness": {
+        "passed": "5/5",
+        "avg_confidence": 4.6,
+        "weighted": 4.6
+      },
+      "relevance": {
+        "passed": "4/4",
+        "avg_confidence": 4.5,
+        "weighted": 2.25
+      },
+      "usefulness": {
+        "passed": "4/4",
+        "avg_confidence": 4.5,
+        "weighted": 2.25
+      },
+      "exceptional": {
+        "passed": "5/5",
+        "avg_confidence": 3.8,
+        "weighted": 7.6
+      }
+    },
+    "total": 21.3,
+    "max_possible": 25.0,
+    "percentage": 85.2,
+    "grade": "A",
+    "summary": "The image was effectively transformed into a storybook style watercolor illustration. It maintains the food content accurately while applying the requested aesthetic. The result is a delightful image suitable for children's content.",
+    "evaluation_id": "img_002_storybook_20260204000736",
+    "original": "originals/img_002.png",
+    "restyled": "restyled/img_002_storybook.png",
+    "timestamp": "2026-02-04T00:07:36.281436"
+  },
+  {
+    "style": "Anime",
+    "dimensions": {
+      "accuracy": {
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit anime-style large expressive eyes?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "There are no eyes in the image."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person from the original?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "There is no person in the image."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use anime-typical color saturation and cel-shading?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The output exhibits brighter colors and defined shading, similar to anime styles."
+          },
+          {
+            "id": "A4",
+            "question": "Are facial proportions adjusted in anime style while preserving identity?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "There are no faces in the image."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional anime illustration quality?",
+            "answer": "No",
+            "confidence": 4,
+            "evidence": "The rendering doesn't quite reach professional quality, lacking finer details and polish."
+          }
+        ],
+        "passed": 1,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 0.92
+      },
+      "completeness": {
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the anime style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The entire image has been stylistically transformed, with no obvious photo artifacts."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background feel like it belongs in an anime scene?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The background has been altered to complement the new style, enhancing the overall scene."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The object (food) maintains its structural integrity. The original shape is still present."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (vibrant but not garish)?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The colors are vibrant but balanced and do not appear overly saturated or unnatural."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements (people, hair, clothing, background) stylistically consistent?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "All elements in the image are stylistically consistent with the anime aesthetic."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 4.6
+      },
+      "relevance": {
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble professional anime or manga illustrations?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The output incorporates elements found in anime and manga illustrations, such as cleaner lines and more vibrant colors."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style consistent with popular anime aesthetics (Studio Ghibli, modern anime)?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The style is generally consistent with common anime aesthetics, although not specifically reminiscent of a particular studio or style."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel dynamic, expressive, and true to anime genre?",
+            "answer": "Yes",
+            "confidence": 3,
+            "evidence": "The brighter colors add some dynamic to the image. But ultimately the mood lacks significant changes, which is understandable since the subject is tiramisu."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inconsistent with anime style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "There are no elements obviously clashing with the overall anime style transformation."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.0,
+        "dimension_score": 4.0
+      },
+      "usefulness": {
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable as anime fan art or profile picture?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "Yes, while it's an odd subject, the quality is high enough that it might be useful."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image appears free of noticeable digital artifacts or glitches."
+          },
+          {
+            "id": "U3",
+            "question": "Is the subject clearly recognizable in the anime style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The tiramisu is still recognizable as tiramisu."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for digital display or printing?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The resolution seems high enough for various digital display purposes."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.5,
+        "dimension_score": 4.5
+      },
+      "exceptional": {
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it was drawn by a professional anime artist?",
+            "answer": "No",
+            "confidence": 3,
+            "evidence": "While well done, it still has a slightly AI-generated look. It does not have the polish of a professional artist."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation capture the charm and appeal of anime characters?",
+            "answer": "No",
+            "confidence": 3,
+            "evidence": "Since there are no characters, the charm isn't really applicable."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as 'my anime version'?",
+            "answer": "No",
+            "confidence": 3,
+            "evidence": "It's niche, but some users might share it due to its uniqueness."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'anime protagonist' quality?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "This is a food item, not a character."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated anime images?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The subject matter (tiramisu) in anime style makes it stand out."
+          }
+        ],
+        "passed": 1,
+        "total": 5,
+        "avg_confidence": 3.6,
+        "dimension_score": 0.72
+      }
+    },
+    "scores": {
+      "accuracy": {
+        "passed": "1/5",
+        "avg_confidence": 4.6,
+        "weighted": 0.92
+      },
+      "completeness": {
+        "passed": "5/5",
+        "avg_confidence": 4.6,
+        "weighted": 4.6
+      },
+      "relevance": {
+        "passed": "4/4",
+        "avg_confidence": 4.0,
+        "weighted": 2.0
+      },
+      "usefulness": {
+        "passed": "4/4",
+        "avg_confidence": 4.5,
+        "weighted": 2.25
+      },
+      "exceptional": {
+        "passed": "1/5",
+        "avg_confidence": 3.6,
+        "weighted": 1.44
+      }
+    },
+    "total": 11.21,
+    "max_possible": 25.0,
+    "percentage": 44.84,
+    "grade": "F",
+    "summary": "The AI has successfully applied an anime style to the image of tiramisu, resulting in a stylistically consistent rendering. However, the final quality is not very compelling due to the image not containing any subjects, and therefore it doesn't reach expectations of anime-style art.",
+    "evaluation_id": "img_003_anime_20260204000756",
+    "original": "originals/img_003.png",
+    "restyled": "restyled/img_003_anime.png",
+    "timestamp": "2026-02-04T00:07:56.733136"
+  },
+  {
+    "style": "Pop Art",
+    "dimensions": {
+      "accuracy": {
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit pop art halftone dot patterns or Ben-Day dots?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "Halftone dots are clearly visible throughout the image."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The food is clearly the same tiramisu and panna cotta dessert from the original."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use bold, limited color palette typical of pop art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image uses a limited color palette with bold, saturated colors like red, yellow, and blue."
+          },
+          {
+            "id": "A4",
+            "question": "Are outlines strong and graphic in pop art style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "Strong, dark outlines define the shapes and forms in the image."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional pop art illustration quality?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image successfully mimics the aesthetic of pop art illustrations."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.8,
+        "dimension_score": 4.8
+      },
+      "completeness": {
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the pop art style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style is consistently applied across the entire image."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background use pop art elements (solid colors, dots, speech bubbles)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The background features halftone dots and solid colors, in line with pop art."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The subjects (food) retain their structure and are easily identifiable."
+          },
+          {
+            "id": "C4",
+            "question": "Is the color blocking bold and distinct as expected in pop art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The color blocking is distinct and bold, contributing to the pop art aesthetic."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements stylistically consistent with pop art aesthetic?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "All elements, including the subjects and background, adhere to the pop art style."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 5.0,
+        "dimension_score": 5.0
+      },
+      "relevance": {
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble works by Warhol, Lichtenstein, or comic book art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The use of halftone dots and bold colors is reminiscent of Lichtenstein and Warhol."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style bold, graphic, and visually striking?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The strong outlines and vivid colors create a visually striking image."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel energetic, commercial, and culturally iconic?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image evokes a sense of commercial art and cultural iconicity through its style."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inconsistent with pop art style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image avoids elements that would detract from the pop art style."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.75,
+        "dimension_score": 4.75
+      },
+      "usefulness": {
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable for posters, merchandise, or social media?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style and subject matter are well-suited for various commercial applications."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image appears to be free of noticeable digital artifacts."
+          },
+          {
+            "id": "U3",
+            "question": "Is the subject clearly recognizable despite the simplified style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "Despite the stylization, the food is easily recognizable."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for printing or digital display?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The resolution seems adequate for digital display and likely for printing."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.75,
+        "dimension_score": 4.75
+      },
+      "exceptional": {
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it could be displayed in a modern art museum?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image has a creative and artistic quality fitting for a modern art context."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation capture the bold, iconic feel of classic pop art?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The transformation effectively captures the essence of classic pop art."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as their 'Warhol-style portrait'?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The style is appealing and likely to be shared by users."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'iconic poster' quality?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The strong visual impact gives it a poster-like quality."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated pop art images?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image seems well-executed, making it stand out compared to potentially less sophisticated AI outputs."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.2,
+        "dimension_score": 4.2
+      }
+    },
+    "scores": {
+      "accuracy": {
+        "passed": "5/5",
+        "avg_confidence": 4.8,
+        "weighted": 4.8
+      },
+      "completeness": {
+        "passed": "5/5",
+        "avg_confidence": 5.0,
+        "weighted": 5.0
+      },
+      "relevance": {
+        "passed": "4/4",
+        "avg_confidence": 4.75,
+        "weighted": 2.375
+      },
+      "usefulness": {
+        "passed": "4/4",
+        "avg_confidence": 4.75,
+        "weighted": 2.375
+      },
+      "exceptional": {
+        "passed": "5/5",
+        "avg_confidence": 4.2,
+        "weighted": 8.4
+      }
+    },
+    "total": 22.95,
+    "max_possible": 25.0,
+    "percentage": 91.8,
+    "grade": "A+",
+    "summary": "The image successfully transforms the original content into a visually appealing Pop Art style illustration. It effectively employs halftone dots, bold outlines, and a limited color palette, staying true to the core aesthetic and demonstrating a high level of quality and completeness.",
+    "evaluation_id": "img_003_pop_art_20260204000816",
+    "original": "originals/img_003.png",
+    "restyled": "restyled/img_003_pop_art.png",
+    "timestamp": "2026-02-04T00:08:16.941028"
+  },
+  {
+    "style": "Storybook",
+    "dimensions": {
+      "accuracy": {
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit soft, watercolor-like illustrated textures?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image has a distinct watercolor texture and soft edges."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person/scene from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The desserts (tiramisu and white pudding) are clearly identifiable."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use a warm, inviting color palette typical of children's books?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The colors are soft and muted, creating a gentle, inviting aesthetic."
+          },
+          {
+            "id": "A4",
+            "question": "Are facial expressions and poses preserved from the original?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The relative positions of the plates with tiramisu and pudding is kept the same"
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional storybook illustrations?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The illustration is well-executed and evokes the style of children's book illustrations."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.6,
+        "dimension_score": 4.6
+      },
+      "completeness": {
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the storybook style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The entire image has been rendered in the storybook style."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background feel like it belongs in a children's book scene?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The background has been stylized to match the overall aesthetic."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The tiramisu and pudding are intact with no warping."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (not too subtle, not overdone)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The saturation is perfect, not too dull and not too vibrant."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements (people, objects, background) stylistically consistent?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The desserts and background are consistent."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 4.8,
+        "dimension_score": 4.8
+      },
+      "relevance": {
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble illustrations from beloved children's books?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image has a texture and aesthetic that is very much similar to a children's book illustration"
+          },
+          {
+            "id": "R2",
+            "question": "Is the style gentle, soft, and age-appropriate for children's content?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "Colors and texture of this picture are age-appropriate for children's content."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel warm, nostalgic, and emotionally comforting?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "Soft colors and blurred edges provide a comforting and nostalgic touch."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inappropriate for children?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "No inappropriate elements found."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.5,
+        "dimension_score": 4.5
+      },
+      "usefulness": {
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable for a children's book page or nursery decor?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image would be well-suited for a children's book or nursery decor."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is free of obvious digital artifacts."
+          },
+          {
+            "id": "U3",
+            "question": "Would parents feel comfortable using this for family-oriented content?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The content and style are appropriate for family-oriented use."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for printing?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The resolution appears sufficient for small to medium sized prints."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "avg_confidence": 4.75,
+        "dimension_score": 4.75
+      },
+      "exceptional": {
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it was illustrated by a professional children's book artist?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "It appears professional enough to be considered a quality illustration."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation evoke feelings of warmth, joy, and childhood wonder?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The soft pastel colors and gentle texture create a warm and joyful feeling."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as 'my family as a storybook illustration'?",
+            "answer": "Yes",
+            "confidence": 3,
+            "evidence": "The stylized rendering is unique and aesthetically pleasing, increasing shareability."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'I want to frame this' quality?",
+            "answer": "Yes",
+            "confidence": 3,
+            "evidence": "The image could be framed, especially in a kitchen setting."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated storybook images?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The artistic interpretation is noticeably effective and stands out from generic outputs."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "avg_confidence": 3.6,
+        "dimension_score": 3.6
+      }
+    },
+    "scores": {
+      "accuracy": {
+        "passed": "5/5",
+        "avg_confidence": 4.6,
+        "weighted": 4.6
+      },
+      "completeness": {
+        "passed": "5/5",
+        "avg_confidence": 4.8,
+        "weighted": 4.8
+      },
+      "relevance": {
+        "passed": "4/4",
+        "avg_confidence": 4.5,
+        "weighted": 2.25
+      },
+      "usefulness": {
+        "passed": "4/4",
+        "avg_confidence": 4.75,
+        "weighted": 2.375
+      },
+      "exceptional": {
+        "passed": "5/5",
+        "avg_confidence": 3.6,
+        "weighted": 7.2
+      }
+    },
+    "total": 21.225,
+    "max_possible": 25.0,
+    "percentage": 84.9,
+    "grade": "A",
+    "summary": "The AI successfully transformed the image into a storybook illustration with watercolor textures and soft, inviting colors. The composition is well-preserved, and the style application is thorough, creating a warm and nostalgic mood suitable for children's content.",
+    "evaluation_id": "img_003_storybook_20260204000836",
+    "original": "originals/img_003.png",
+    "restyled": "restyled/img_003_storybook.png",
+    "timestamp": "2026-02-04T00:08:36.377895"
+  }
+]

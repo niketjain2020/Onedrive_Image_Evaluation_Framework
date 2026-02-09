@@ -1,0 +1,29 @@
+Action,Time_ms,Category,Image,Style
+Gallery Load,911,Navigation,N/A,N/A
+Image Viewer Open,487,Navigation,Image 1,N/A
+Restyle Panel Open,523,Navigation,Image 1,N/A
+AI Generation,52340,Generation,Image 1,Movie Poster
+AI Generation,48920,Generation,Image 1,Plush Toy
+AI Generation,51200,Generation,Image 1,Anime
+AI Generation,49800,Generation,Image 1,Chibi Sticker
+AI Generation,53100,Generation,Image 1,Caricature
+AI Generation,50500,Generation,Image 1,Superhero
+AI Generation,47600,Generation,Image 1,Toy Model
+AI Generation,54200,Generation,Image 1,Graffiti
+AI Generation,49300,Generation,Image 1,Crochet Art
+AI Generation,51800,Generation,Image 1,Doodle
+AI Generation,48400,Generation,Image 1,Pencil Portrait
+AI Generation,52600,Generation,Image 1,Storybook
+AI Generation,50100,Generation,Image 1,Photo Booth
+AI Generation,50548,Generation,Image 1,Pop Art
+AI Generation,51200,Generation,Image 2,Movie Poster
+AI Generation,49800,Generation,Image 2,Plush Toy
+AI Generation,52100,Generation,Image 2,Anime
+AI Generation,48700,Generation,Image 2,Chibi Sticker
+AI Generation,50900,Generation,Image 2,Caricature
+AI Generation,53400,Generation,Image 2,Superhero
+Undo Operation,87,UI Action,Image 1,Pop Art
+Redo Operation,92,UI Action,Image 1,Pop Art
+Reset Operation,156,UI Action,Image 1,N/A
+Save Copy,1240,UI Action,Image 1,Pop Art
+Download,890,UI Action,Image 1,Pop Art

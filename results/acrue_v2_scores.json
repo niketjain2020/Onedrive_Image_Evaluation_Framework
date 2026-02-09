@@ -1,0 +1,437 @@
+[
+  {
+    "evaluation_id": "6f7abf51-cccf-4f13-baa9-ad9138cb6b8e",
+    "timestamp": "2026-02-03T09:31:35.694529Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\qa_step1_viewer_opened.png",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\img1-12-storybook.png",
+    "style": "Storybook",
+    "rubric_version": "acrue-v2",
+    "scores": {
+      "accuracy": {
+        "weight": 1.0,
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit soft, watercolor-like illustrated textures?",
+            "answer": "Yes",
+            "evidence": "The image has a soft, watercolor-like texture that is characteristic of storybook illustrations."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person/scene from the original?",
+            "answer": "Yes",
+            "evidence": "The person's facial features and pose are generally preserved, making them recognizable."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use a warm, inviting color palette typical of children's books?",
+            "answer": "Yes",
+            "evidence": "The color palette is warm and inviting, with soft tones and pastel shades."
+          },
+          {
+            "id": "A4",
+            "question": "Are facial expressions and poses preserved from the original?",
+            "answer": "Yes",
+            "evidence": "The facial expression and pose are mostly preserved."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional storybook illustrations?",
+            "answer": "Yes",
+            "evidence": "The rendering style aligns well with what is expected from professional storybook illustrations, using simple shapes and soft shading."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "dimension_score": 5,
+        "weighted_score": 5.0,
+        "reason": "All assertions passed. The image successfully translates the original content into a storybook style with a soft watercolor aesthetic."
+      },
+      "completeness": {
+        "weight": 1.0,
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the storybook style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "evidence": "The storybook style is applied consistently throughout the entire image."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background feel like it belongs in a children's book scene?",
+            "answer": "Yes",
+            "evidence": "The background is simplified and rendered in a watercolor style, fitting the children's book theme."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "evidence": "All subjects appear structurally intact, without any significant distortions or broken limbs."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (not too subtle, not overdone)?",
+            "answer": "Yes",
+            "evidence": "The style saturation is well-balanced, not too subtle, nor overdone."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements (people, objects, background) stylistically consistent?",
+            "answer": "Yes",
+            "evidence": "All elements including the person, objects, and background are stylistically consistent with the storybook theme."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "dimension_score": 5,
+        "weighted_score": 5.0,
+        "reason": "All assertions passed. The storybook style is applied consistently across the entire image, resulting in a cohesive and well-executed transformation."
+      },
+      "relevance": {
+        "weight": 0.5,
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble illustrations from beloved children's books?",
+            "answer": "Yes",
+            "evidence": "The style is reminiscent of classic children's book illustrations, with soft lines and gentle colors."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style gentle, soft, and age-appropriate for children's content?",
+            "answer": "Yes",
+            "evidence": "The style is gentle and soft, making it suitable for children's content."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel warm, nostalgic, and emotionally comforting?",
+            "answer": "Yes",
+            "evidence": "The warm color palette and soft textures contribute to a warm, nostalgic, and comforting mood."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inappropriate for children?",
+            "answer": "Yes",
+            "evidence": "The image does not contain any elements inappropriate for children."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "pass_rate": "4/4",
+        "dimension_score": 5,
+        "weighted_score": 2.5,
+        "reason": "All assertions passed. The image effectively captures the essence of storybook illustrations, creating a warm and comforting mood appropriate for children."
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable for a children's book page or nursery decor?",
+            "answer": "Yes",
+            "evidence": "The image is perfect for children's book pages or nursery decor."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "evidence": "The image appears to be free of obvious digital artifacts or glitches."
+          },
+          {
+            "id": "U3",
+            "question": "Would parents feel comfortable using this for family-oriented content?",
+            "answer": "Yes",
+            "evidence": "The image is family-friendly and appropriate for family-oriented content."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for printing?",
+            "answer": "Yes",
+            "evidence": "The resolution appears sufficient for printing."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "pass_rate": "4/4",
+        "dimension_score": 5,
+        "weighted_score": 2.5,
+        "reason": "All assertions passed. The output is highly usable for various applications, including children's books and family-oriented content, and is free of noticeable artifacts."
+      },
+      "exceptional": {
+        "weight": 2.0,
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it was illustrated by a professional children's book artist?",
+            "answer": "Yes",
+            "evidence": "The image is rendered in a style that convincingly resembles professional children's book art."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation evoke feelings of warmth, joy, and childhood wonder?",
+            "answer": "Yes",
+            "evidence": "The soft color palette and simple rendering effectively evoke feelings of warmth and joy."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as 'my family as a storybook illustration'?",
+            "answer": "Yes",
+            "evidence": "The image would be easily shared and well-received as a storybook illustration of a family."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'I want to frame this' quality?",
+            "answer": "Yes",
+            "evidence": "The image possesses a charming aesthetic that many users might find suitable for framing."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated storybook images?",
+            "answer": "Yes",
+            "evidence": "The quality and execution of this storybook transformation are notably high compared to typical AI-generated images."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "dimension_score": 5,
+        "weighted_score": 10.0,
+        "reason": "All assertions passed. The transformation is exceptional, creating a visually appealing image that evokes warm emotions and effectively captures the essence of a professional storybook illustration."
+      }
+    },
+    "summary": {
+      "total_assertions": 23,
+      "total_passed": 23,
+      "overall_pass_rate": "23/23",
+      "weighted_total": 25.0,
+      "max_score": 25.0,
+      "percentage": 100.0,
+      "grade": "A+"
+    },
+    "overall_assessment": "The style transfer to the Storybook theme is exceptionally well-executed, resulting in a delightful image suitable for various uses, from children's books to family decor. The resulting image effectively captures the essence of a children's storybook illustration, conveying a sense of warmth, nostalgia, and childhood wonder."
+  },
+  {
+    "evaluation_id": "03c7f9a7-bfc9-45ec-86a5-d7c8178d0fd9",
+    "timestamp": "2026-02-03T09:32:03.511934Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\qa_step1_viewer_opened.png",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\img1-03-anime.png",
+    "style": "Anime",
+    "rubric_version": "acrue-v2",
+    "scores": {
+      "accuracy": {
+        "weight": 1.0,
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Is the subject recognizable as the same person/scene from the original?",
+            "answer": "Yes",
+            "evidence": "The subject's facial features and the items she is holding are still clearly discernible, even though stylized."
+          },
+          {
+            "id": "A2",
+            "question": "Does the output authentically represent the target style?",
+            "answer": "Yes",
+            "evidence": "The restyled image exhibits key anime characteristics, including larger eyes, softer shading, and a distinct illustrative style."
+          },
+          {
+            "id": "A3",
+            "question": "Are pose, framing, and spatial relationships preserved?",
+            "answer": "Yes",
+            "evidence": "The subject's pose and the framing of the image are consistent between the original and the restyled version."
+          },
+          {
+            "id": "A4",
+            "question": "Are style-appropriate elements tasteful and not distracting?",
+            "answer": "Yes",
+            "evidence": "The anime style elements, such as the softened lighting and updated background, enhance the overall aesthetic without being overly distracting."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional quality for this style?",
+            "answer": "Yes",
+            "evidence": "The restyled image looks like a well-executed anime illustration, with smooth lines and detailed shading that meet professional standards."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "dimension_score": 5,
+        "weighted_score": 5.0,
+        "reason": "All assertions passed, indicating excellent accuracy in preserving content and applying the anime style."
+      },
+      "completeness": {
+        "weight": 1.0,
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the style applied to the entire image (no untransformed patches)?",
+            "answer": "Yes",
+            "evidence": "The anime style is consistently applied throughout the image, including the subject, background, and foreground elements."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background complement the styled subject?",
+            "answer": "Yes",
+            "evidence": "The new background, featuring a city street, complements the anime style of the subject and creates a cohesive scene."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "evidence": "The subject's anatomy is structurally sound, with no visible distortions or broken limbs."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (not too subtle, not overdone)?",
+            "answer": "Yes",
+            "evidence": "The style saturation is well-balanced, enhancing the visual appeal without appearing overly saturated or artificial."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements stylistically consistent?",
+            "answer": "Yes",
+            "evidence": "All elements within the image exhibit consistent anime-style rendering, maintaining a unified aesthetic."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "dimension_score": 5,
+        "weighted_score": 5.0,
+        "reason": "All assertions passed, indicating excellent completeness in applying the anime style consistently across the entire image."
+      },
+      "relevance": {
+        "weight": 0.5,
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output clearly represent the requested style?",
+            "answer": "Yes",
+            "evidence": "The restyled image unequivocally embodies the anime style, with characteristic visual features and illustrative techniques."
+          },
+          {
+            "id": "R2",
+            "question": "Does the emotional tone fit the style expectation?",
+            "answer": "Yes",
+            "evidence": "The image conveys a lighthearted and cheerful emotional tone, aligning with typical anime style expectations."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood align with what users expect from this style?",
+            "answer": "Yes",
+            "evidence": "The mood of the restyled image aligns well with the common expectations of anime, featuring vibrant colors and an engaging scene."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inconsistent with the style?",
+            "answer": "Yes",
+            "evidence": "The image avoids elements that would be out of place in an anime style, ensuring visual consistency."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "pass_rate": "4/4",
+        "dimension_score": 5,
+        "weighted_score": 2.5,
+        "reason": "All assertions passed, indicating excellent relevance in aligning with user expectations for anime style."
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable for sharing on social media?",
+            "answer": "Yes",
+            "evidence": "The restyled image is visually appealing and appropriate for sharing on social media platforms."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "evidence": "The image is free from noticeable digital artifacts or glitches, ensuring a polished final product."
+          },
+          {
+            "id": "U3",
+            "question": "Is the subject clearly visible and recognizable?",
+            "answer": "Yes",
+            "evidence": "Despite the style transfer, the subject remains clearly visible and recognizable."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for intended use?",
+            "answer": "Yes",
+            "evidence": "The resolution of the image appears adequate for typical intended uses, such as sharing or displaying online."
+          }
+        ],
+        "passed": 4,
+        "total": 4,
+        "pass_rate": "4/4",
+        "dimension_score": 5,
+        "weighted_score": 2.5,
+        "reason": "All assertions passed, indicating excellent usefulness and suitability for various applications."
+      },
+      "exceptional": {
+        "weight": 2.0,
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like professional work in this style?",
+            "answer": "Yes",
+            "evidence": "The restyled image has a high level of detail and polish, resembling professional anime artwork."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation add artistic value to the original?",
+            "answer": "Yes",
+            "evidence": "The anime transformation significantly enhances the artistic value of the original image, giving it a fresh and engaging look."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this?",
+            "answer": "Yes",
+            "evidence": "Users would likely be enthusiastic about sharing this appealing and well-executed anime-style image."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have standout quality compared to typical AI outputs?",
+            "answer": "Yes",
+            "evidence": "The restyled image exhibits standout quality compared to typical AI outputs, demonstrating attention to detail and style consistency."
+          },
+          {
+            "id": "E5",
+            "question": "Does it evoke the intended emotional response?",
+            "answer": "Yes",
+            "evidence": "The restyled image evokes a positive and cheerful emotional response, fitting with the conventions of anime style."
+          }
+        ],
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "dimension_score": 5,
+        "weighted_score": 10.0,
+        "reason": "All assertions passed, indicating the image has excellent and exceptional qualities beyond basic expectations."
+      }
+    },
+    "summary": {
+      "total_assertions": 23,
+      "total_passed": 23,
+      "overall_pass_rate": "23/23",
+      "weighted_total": 25.0,
+      "max_score": 25.0,
+      "percentage": 100.0,
+      "grade": "A+"
+    },
+    "overall_assessment": "The AI style transfer to anime was exceptionally well-executed, preserving the subject's identity while adding artistic value through a polished and stylistically consistent transformation. The result is an engaging and shareable image that accurately represents the requested style and exceeds expectations."
+  },
+  {
+    "evaluation_id": "613a5309-c580-4a49-845a-b2c5454309e8",
+    "timestamp": "2026-02-03T10:31:31.679263Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\gemini-mcp\\.playwright-mcp\\pipeline_img1_portrait.png",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\gemini-mcp\\.playwright-mcp\\img1_storybook_styled.png",
+    "style": "Storybook",
+    "error": "Failed to parse response: Expecting property name enclosed in double quotes: line 153 column 9 (char 6478)",
+    "raw_response": "{\n  \"style\": \"Storybook\",\n  \"assertions\": {\n    \"accuracy\": {\n      \"results\": [\n        {\n          \"id\": \"A1\",\n          \"question\": \"Does the output exhibit soft, watercolor-like illustrated textures?\",\n          \"answer\": \"Yes\",\n          \"evidence\": \"The image has a noticeable watercolor texture.\"\n        },\n        {\n          \"id\": \"A2\",\n          \"question\": \"Is the subject recognizable as the same person/scene from the original?\",\n          \"answer\": \"Yes\",\n          \"evidence\": \"The subject's facial features and pose are preserved, making him recognizable.\"\n        },\n        {\n          \"id\": \"A3\",\n          \"question\": \"Does the image use a warm, inviting color palette typical of children's books?\",\n          \"answer\": \"Yes\",\n          \"evidence\": \"The color palette is soft and inviting, characteristic of many children's books, though muted.\"\n        },\n        {\n          \"id\": \"A4\",\n          \"question\": \"Are facial expressions and poses preserved from the original?\",\n   "
+  }
+]

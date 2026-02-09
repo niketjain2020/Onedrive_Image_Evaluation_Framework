@@ -1,0 +1,20 @@
+{
+  "description": "Batch evaluation configuration for ACRUE image assessment",
+  "evaluations": [
+    {
+      "original": ".playwright-mcp/original_image.png",
+      "restyled": ".playwright-mcp/img1-movie-poster.png",
+      "style": "Movie Poster"
+    },
+    {
+      "original": ".playwright-mcp/original_image.png",
+      "restyled": ".playwright-mcp/img1-anime.png",
+      "style": "Anime"
+    },
+    {
+      "original": ".playwright-mcp/original_image.png",
+      "restyled": ".playwright-mcp/img1-plush-toy.png",
+      "style": "Plush Toy"
+    }
+  ]
+}

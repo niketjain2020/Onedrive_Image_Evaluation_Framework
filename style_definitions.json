@@ -1,0 +1,414 @@
+{
+  "description": "Style-specific evaluation context for ACRUE AI Restyle assessment",
+  "version": "1.0.0",
+  "styles": {
+    "Movie Poster": {
+      "display_name": "Movie Poster",
+      "description": "Transforms the subject into a cinematic movie poster aesthetic",
+      "expected_transformations": [
+        "Dramatic lighting with strong contrast",
+        "Cinematic color grading (often teal/orange or high contrast)",
+        "Title-ready composition with visual hierarchy",
+        "Heroic or dramatic poses emphasized",
+        "Film grain or cinematic texture may be added",
+        "Background may be stylized or enhanced for drama"
+      ],
+      "acceptable_additions": [
+        "Movie title text or credits styling",
+        "Dramatic lens flares or lighting effects",
+        "Cinematic letterboxing or framing",
+        "Tagline-style text areas",
+        "Studio logo placeholders"
+      ],
+      "quality_indicators": [
+        "Would this look at home on a theater poster?",
+        "Does it capture the drama and gravitas of film marketing?",
+        "Is the subject portrayed heroically or dramatically?"
+      ],
+      "common_issues_to_avoid": [
+        "Subject looking cartoonish instead of cinematic",
+        "Colors that don't evoke movie poster aesthetics",
+        "Missing the epic/dramatic quality expected"
+      ]
+    },
+    "Anime": {
+      "display_name": "Anime",
+      "description": "Transforms the subject into Japanese anime art style",
+      "expected_transformations": [
+        "Large, expressive eyes with highlights",
+        "Clean, bold line work",
+        "Vibrant, saturated colors",
+        "Manga-style cel shading (flat color blocks)",
+        "Simplified but expressive facial features",
+        "Stylized hair with defined strands"
+      ],
+      "acceptable_additions": [
+        "Anime-style sparkles or effects",
+        "Speed lines or motion effects",
+        "Expressive emotion indicators (sweat drops, blush lines)",
+        "Stylized backgrounds common in anime",
+        "Cherry blossoms or other anime tropes if appropriate"
+      ],
+      "quality_indicators": [
+        "Does it look like it could be from a real anime?",
+        "Are the proportions consistent with anime style?",
+        "Do the eyes and expressions capture anime aesthetics?"
+      ],
+      "common_issues_to_avoid": [
+        "Western cartoon style mixed with anime",
+        "Realistic elements that break the anime illusion",
+        "Inconsistent line weight or shading style"
+      ]
+    },
+    "Chibi Sticker": {
+      "display_name": "Chibi Sticker",
+      "description": "Transforms the subject into a cute, super-deformed chibi character suitable for stickers",
+      "expected_transformations": [
+        "Super-deformed proportions (large head, small body)",
+        "Extremely cute, simplified features",
+        "Big expressive eyes",
+        "Rounded, soft forms",
+        "Sticker-ready clean edges or cutout style",
+        "Bold, simple colors"
+      ],
+      "acceptable_additions": [
+        "White outline for sticker effect",
+        "Cute accessories or props",
+        "Kawaii expressions (sparkles in eyes, blush)",
+        "Simple patterned or solid backgrounds",
+        "Chibi-appropriate poses (peace signs, etc.)"
+      ],
+      "quality_indicators": [
+        "Would this work as an actual sticker?",
+        "Is it immediately recognizable as chibi style?",
+        "Does it evoke 'kawaii' cuteness?"
+      ],
+      "common_issues_to_avoid": [
+        "Proportions too realistic for chibi",
+        "Lack of cuteness factor",
+        "Edges not clean enough for sticker use"
+      ]
+    },
+    "Caricature": {
+      "display_name": "Caricature",
+      "description": "Transforms the subject into an exaggerated caricature that emphasizes distinctive features",
+      "expected_transformations": [
+        "Exaggerated distinctive facial features",
+        "Humorous or playful distortion",
+        "Cartoon-style rendering",
+        "Emphasis on personality through exaggeration",
+        "Simplified backgrounds or vignette style"
+      ],
+      "acceptable_additions": [
+        "Exaggerated expressions",
+        "Humorous props or accessories",
+        "Stylized backgrounds",
+        "Signature caricature artist styling"
+      ],
+      "quality_indicators": [
+        "Is the subject still recognizable despite exaggeration?",
+        "Do the exaggerations capture the subject's essence?",
+        "Does it feel like skilled caricature art?"
+      ],
+      "common_issues_to_avoid": [
+        "Exaggeration that makes subject unrecognizable",
+        "Mean-spirited rather than playful distortion",
+        "Inconsistent exaggeration style"
+      ]
+    },
+    "Plush Toy": {
+      "display_name": "Plush Toy",
+      "description": "Transforms the subject into a soft, cuddly plush toy aesthetic",
+      "expected_transformations": [
+        "Soft, fabric-like textures",
+        "Rounded, huggable forms",
+        "Toy-like proportions (often slightly simplified)",
+        "Visible stitching or seam details",
+        "Button eyes or embroidered features",
+        "Soft, muted or pastel colors"
+      ],
+      "acceptable_additions": [
+        "Fabric texture overlays",
+        "Stuffing-like rounded forms",
+        "Tag or label details",
+        "Plush-appropriate accessories"
+      ],
+      "quality_indicators": [
+        "Does it look like an actual plush toy?",
+        "Can you imagine hugging this?",
+        "Are the textures convincingly soft?"
+      ],
+      "common_issues_to_avoid": [
+        "Too realistic, not toylike enough",
+        "Missing the soft, squeezable quality",
+        "Hard edges that don't feel plush"
+      ]
+    },
+    "Superhero": {
+      "display_name": "Superhero",
+      "description": "Transforms the subject into a comic book superhero aesthetic",
+      "expected_transformations": [
+        "Heroic pose and stance",
+        "Comic book coloring and shading",
+        "Dynamic, powerful composition",
+        "Bold, saturated colors",
+        "Muscular or idealized proportions",
+        "Dramatic lighting"
+      ],
+      "acceptable_additions": [
+        "Superhero costume elements",
+        "Capes, masks, or emblems",
+        "Action effects (energy, motion)",
+        "Dramatic sky or cityscape backgrounds",
+        "Comic book style text effects"
+      ],
+      "quality_indicators": [
+        "Does it feel like a comic book cover?",
+        "Is the heroic quality captured?",
+        "Would this fit in a superhero universe?"
+      ],
+      "common_issues_to_avoid": [
+        "Looking generic rather than heroic",
+        "Costume elements that look out of place",
+        "Missing the dynamic energy of superhero art"
+      ]
+    },
+    "Toy Model": {
+      "display_name": "Toy Model",
+      "description": "Transforms the scene into a miniature toy/diorama aesthetic (tilt-shift effect)",
+      "expected_transformations": [
+        "Tilt-shift blur effect",
+        "Enhanced, saturated colors",
+        "Miniature/model-like appearance",
+        "Selective focus creating depth",
+        "Toy-like or plastic quality to objects"
+      ],
+      "acceptable_additions": [
+        "Enhanced color saturation",
+        "Miniature scene framing",
+        "Slight plastic or model texture"
+      ],
+      "quality_indicators": [
+        "Does the scene look like a tiny model?",
+        "Is the tilt-shift effect convincing?",
+        "Does it evoke toy photography?"
+      ],
+      "common_issues_to_avoid": [
+        "Blur applied inconsistently",
+        "Not achieving the miniature illusion",
+        "Colors too muted for toy aesthetic"
+      ]
+    },
+    "Graffiti": {
+      "display_name": "Graffiti",
+      "description": "Transforms the subject into street art/graffiti style",
+      "expected_transformations": [
+        "Bold, spray paint-like colors",
+        "Street art aesthetic",
+        "Graffiti lettering style elements",
+        "Urban texture and grit",
+        "Stencil or wildstyle influences"
+      ],
+      "acceptable_additions": [
+        "Spray paint drips and splatters",
+        "Brick wall or urban backgrounds",
+        "Graffiti tags or text",
+        "Stencil layer effects"
+      ],
+      "quality_indicators": [
+        "Does it look like authentic street art?",
+        "Is the urban energy captured?",
+        "Would this fit on a city wall?"
+      ],
+      "common_issues_to_avoid": [
+        "Looking too clean and digital",
+        "Missing the raw street art quality",
+        "Inauthentic graffiti elements"
+      ]
+    },
+    "Crochet Art": {
+      "display_name": "Crochet Art",
+      "description": "Transforms the subject into a crocheted/yarn art appearance",
+      "expected_transformations": [
+        "Yarn texture throughout",
+        "Crochet stitch patterns visible",
+        "Soft, handmade aesthetic",
+        "Rounded, yarn-like forms",
+        "Craft/handmade quality"
+      ],
+      "acceptable_additions": [
+        "Visible yarn strands or texture",
+        "Crochet pattern details",
+        "Amigurumi-style features",
+        "Soft, crafted backgrounds"
+      ],
+      "quality_indicators": [
+        "Does it look handmade from yarn?",
+        "Are crochet textures convincing?",
+        "Would crafters recognize the technique?"
+      ],
+      "common_issues_to_avoid": [
+        "Texture looking painted rather than yarn",
+        "Missing the handmade craft quality",
+        "Inconsistent yarn/stitch appearance"
+      ]
+    },
+    "Doodle": {
+      "display_name": "Doodle",
+      "description": "Transforms the subject into a hand-drawn doodle/sketch style",
+      "expected_transformations": [
+        "Hand-drawn line quality",
+        "Sketch-like, informal aesthetic",
+        "Simple, expressive linework",
+        "Notebook or paper texture possible",
+        "Casual, spontaneous feel"
+      ],
+      "acceptable_additions": [
+        "Notebook paper background",
+        "Additional doodle elements around subject",
+        "Hand-written style text",
+        "Sketch hatching or shading"
+      ],
+      "quality_indicators": [
+        "Does it look hand-drawn?",
+        "Is the casual doodle quality captured?",
+        "Would this fit in a sketchbook?"
+      ],
+      "common_issues_to_avoid": [
+        "Too polished, losing doodle charm",
+        "Lines too perfect/mechanical",
+        "Missing the informal sketch quality"
+      ]
+    },
+    "Pencil Portrait": {
+      "display_name": "Pencil Portrait",
+      "description": "Transforms the subject into a realistic pencil drawing/sketch",
+      "expected_transformations": [
+        "Graphite pencil textures",
+        "Realistic shading and tonal values",
+        "Fine detailed linework",
+        "Paper texture visible",
+        "Portrait drawing techniques (hatching, blending)"
+      ],
+      "acceptable_additions": [
+        "Paper grain texture",
+        "Artist signature style elements",
+        "Vignette or fade at edges",
+        "Construction lines or sketchy edges"
+      ],
+      "quality_indicators": [
+        "Does it look like a skilled pencil portrait?",
+        "Is the graphite texture convincing?",
+        "Would this pass as traditional art?"
+      ],
+      "common_issues_to_avoid": [
+        "Looking too digital or filtered",
+        "Missing realistic pencil texture",
+        "Shading that doesn't match pencil technique"
+      ]
+    },
+    "Storybook": {
+      "display_name": "Storybook",
+      "description": "Transforms the subject into children's book illustration style",
+      "expected_transformations": [
+        "Warm, inviting color palette",
+        "Gentle, friendly aesthetic",
+        "Illustrated/painted quality",
+        "Whimsical, magical atmosphere",
+        "Child-friendly simplification"
+      ],
+      "acceptable_additions": [
+        "Storybook-appropriate backgrounds",
+        "Magical elements (sparkles, soft glow)",
+        "Fairy tale atmosphere",
+        "Illustrated nature elements"
+      ],
+      "quality_indicators": [
+        "Would this fit in a children's book?",
+        "Is the warm, inviting quality present?",
+        "Does it evoke wonder and imagination?"
+      ],
+      "common_issues_to_avoid": [
+        "Too dark or scary for storybook",
+        "Losing the gentle, child-friendly quality",
+        "Style too mature for children's illustration"
+      ]
+    },
+    "Photo Booth": {
+      "display_name": "Photo Booth",
+      "description": "Applies fun photo booth style effects and filters",
+      "expected_transformations": [
+        "Fun, playful photo effects",
+        "Bold color treatments",
+        "Photo booth strip aesthetic possible",
+        "Party/celebration vibe"
+      ],
+      "acceptable_additions": [
+        "Photo booth props (hats, glasses, etc.)",
+        "Fun borders or frames",
+        "Playful text or stamps",
+        "Multiple frame strips"
+      ],
+      "quality_indicators": [
+        "Does it capture photo booth fun?",
+        "Is it party/celebration appropriate?",
+        "Would this be fun to share?"
+      ],
+      "common_issues_to_avoid": [
+        "Effects too subtle to notice",
+        "Missing the playful photo booth energy",
+        "Looking like a basic filter"
+      ]
+    },
+    "Pop Art": {
+      "display_name": "Pop Art",
+      "description": "Transforms the subject into Warhol/Lichtenstein style pop art",
+      "expected_transformations": [
+        "Bold, limited color palette",
+        "High contrast treatment",
+        "Ben-Day dots or halftone patterns",
+        "Comic book inspired elements",
+        "Warhol-style color blocks possible"
+      ],
+      "acceptable_additions": [
+        "Halftone dot patterns",
+        "Bold outline strokes",
+        "Multiple color variations (Warhol grid)",
+        "Comic-style speech bubbles",
+        "Bold graphic backgrounds"
+      ],
+      "quality_indicators": [
+        "Is the pop art style unmistakable?",
+        "Does it evoke Warhol or Lichtenstein?",
+        "Is the bold graphic quality captured?"
+      ],
+      "common_issues_to_avoid": [
+        "Too photographic, not graphic enough",
+        "Missing the iconic pop art boldness",
+        "Halftone or color treatment too subtle"
+      ]
+    }
+  },
+  "default_context": {
+    "description": "Generic style transfer evaluation context",
+    "expected_transformations": [
+      "Clear transformation from photo to target style",
+      "Consistent style application throughout",
+      "Subject identity preserved through transformation"
+    ],
+    "acceptable_additions": [
+      "Style-appropriate enhancements",
+      "Background modifications fitting the style"
+    ],
+    "quality_indicators": [
+      "Is the style clearly recognizable?",
+      "Is the subject still identifiable?",
+      "Is the transformation complete and consistent?"
+    ],
+    "common_issues_to_avoid": [
+      "Incomplete style application",
+      "Subject becoming unrecognizable",
+      "Inconsistent style across the image"
+    ]
+  }
+}

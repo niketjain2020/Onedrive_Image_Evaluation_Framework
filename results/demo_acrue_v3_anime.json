@@ -1,0 +1,239 @@
+[
+  {
+    "evaluation_id": "76f6c2f2-542e-49ce-b308-5e3cad95c2fc",
+    "timestamp": "2026-02-05T05:44:20.939765Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\test1_adult_original.png",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\img1-03-anime.png",
+    "style": "Anime",
+    "rubric_version": "acrue-v3",
+    "dimensions": {
+      "accuracy": {
+        "weight": 1.0,
+        "passed": 2,
+        "total": 5,
+        "pass_rate": "2/5",
+        "avg_confidence": 4.8,
+        "dimension_score": 1.92,
+        "weighted_score": 1.92,
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit anime-style large expressive eyes?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The subject is holding the plant. There are no eyes visible on the subject."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person from the original?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The original image features a hummingbird. The restyled image shows a human."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use anime-typical color saturation and cel-shading?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image has vibrant colors and cel-shading consistent with anime style."
+          },
+          {
+            "id": "A4",
+            "question": "Are facial proportions adjusted in anime style while preserving identity?",
+            "answer": "N/A",
+            "confidence": 5,
+            "evidence": "There is no face visible in the original image. The person in the restyled image is completely different than the original subject (hummingbird)."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional anime illustration quality?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The artwork has a quality resembling professional anime illustrations."
+          }
+        ]
+      },
+      "completeness": {
+        "weight": 1.0,
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "avg_confidence": 4.8,
+        "dimension_score": 4.8,
+        "weighted_score": 4.8,
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the anime style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The entire image is consistently rendered in the anime style."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background feel like it belongs in an anime scene?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The background is a cityscape that can be found in many anime scenes."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The character and the scene have no structural issues. Everything is rendered well and looks proper."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (vibrant but not garish)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The colors are vibrant but appropriately balanced, avoiding a garish appearance."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements (people, hair, clothing, background) stylistically consistent?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "All elements are consistently styled to fit the anime theme."
+          }
+        ]
+      },
+      "relevance": {
+        "weight": 0.5,
+        "passed": 4,
+        "total": 4,
+        "pass_rate": "4/4",
+        "avg_confidence": 4.5,
+        "dimension_score": 2.25,
+        "weighted_score": 1.12,
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble professional anime or manga illustrations?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style of the restyled image strongly reflects the look and feel of professional anime/manga."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style consistent with popular anime aesthetics (Studio Ghibli, modern anime)?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The style aligns with modern anime aesthetics."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel dynamic, expressive, and true to anime genre?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image has a dynamic and expressive mood, typical of the anime genre."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inconsistent with anime style?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The illustration doesn't seem to have elements out of place with the anime style."
+          }
+        ]
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "passed": 3,
+        "total": 4,
+        "pass_rate": "3/4",
+        "avg_confidence": 4.75,
+        "dimension_score": 2.14,
+        "weighted_score": 1.07,
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable as anime fan art or profile picture?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The result is suitable as fan art or a profile picture."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image has no noticeable digital artifacts or glitches."
+          },
+          {
+            "id": "U3",
+            "question": "Is the subject clearly recognizable in the anime style?",
+            "answer": "N/A",
+            "confidence": 5,
+            "evidence": "The subject has changed from the original image to a completely different character. The original subject was not recognizable in the output."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for digital display or printing?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The resolution appears good enough for digital use and possibly printing."
+          }
+        ]
+      },
+      "exceptional": {
+        "weight": 2.0,
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "avg_confidence": 4.0,
+        "dimension_score": 8.0,
+        "weighted_score": 16.0,
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it was drawn by a professional anime artist?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image quality and style do resemble a professional anime artist's work."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation capture the charm and appeal of anime characters?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The transformed character has charm consistent with anime."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as 'my anime version'?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "Many users would likely be happy to share this as their anime version."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'anime protagonist' quality?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The character exhibits a protagonist-like quality."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated anime images?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The quality is very good and feels a step up than some other AI-generated images."
+          }
+        ]
+      }
+    },
+    "summary": {
+      "total_assertions": 23,
+      "total_passed": 19,
+      "overall_pass_rate": "19/23",
+      "overall_avg_confidence": 4.57,
+      "weighted_total": 24.91,
+      "max_score": 25.0,
+      "percentage": 99.6,
+      "grade": "A+"
+    },
+    "overall_assessment": "The style transfer to Anime illustration is generally well-executed. However, the subject is unrecognizable as the original, but the restyled image shows a very good anime-style character with good relevance, usefulness, and exceptional qualities, rendering it as a stylized artwork."
+  }
+]

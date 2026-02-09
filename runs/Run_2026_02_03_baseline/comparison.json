@@ -1,0 +1,49 @@
+{
+  "current_run_id": "Run_2026_02_03_baseline",
+  "baseline_run_id": "Run_2026_02_03_baseline",
+  "timestamp": "2026-02-09T22:38:48.673673",
+  "styles": [
+    {
+      "style": "Anime",
+      "current_pct": 31.9,
+      "baseline_pct": 31.9,
+      "delta_pct": 0.0,
+      "current_score": 7.99,
+      "baseline_score": 7.99,
+      "delta_score": 0.0,
+      "current_grade": "F",
+      "baseline_grade": "F",
+      "status": "unchanged"
+    },
+    {
+      "style": "Pop Art",
+      "current_pct": 92.0,
+      "baseline_pct": 92.0,
+      "delta_pct": 0.0,
+      "current_score": 23.0,
+      "baseline_score": 23.0,
+      "delta_score": 0.0,
+      "current_grade": "A+",
+      "baseline_grade": "A+",
+      "status": "unchanged"
+    },
+    {
+      "style": "Storybook",
+      "current_pct": 86.7,
+      "baseline_pct": 86.7,
+      "delta_pct": 0.0,
+      "current_score": 21.67,
+      "baseline_score": 21.67,
+      "delta_score": 0.0,
+      "current_grade": "A",
+      "baseline_grade": "A",
+      "status": "unchanged"
+    }
+  ],
+  "summary": {
+    "improved": 0,
+    "regressed": 0,
+    "unchanged": 3,
+    "overall_verdict": "UNCHANGED"
+  }
+}

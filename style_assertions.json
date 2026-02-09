@@ -1,0 +1,234 @@
+{
+  "version": "2.0",
+  "description": "Style-specific assertions for ACRUE v2/v3 evaluation framework",
+  "styles": {
+    "Storybook": {
+      "description": "Children's book watercolor illustration style",
+      "assertions": {
+        "accuracy": [
+          "Does the output exhibit soft, watercolor-like illustrated textures?",
+          "Is the subject recognizable as the same person/scene from the original?",
+          "Does the image use a warm, inviting color palette typical of children's books?",
+          "Are facial expressions and poses preserved from the original?",
+          "Does the rendering match professional storybook illustrations?"
+        ],
+        "completeness": [
+          "Is the storybook style applied to the entire image (no photo patches)?",
+          "Does the background feel like it belongs in a children's book scene?",
+          "Are all subjects structurally intact (no broken limbs, warped faces)?",
+          "Is the style saturation appropriate (not too subtle, not overdone)?",
+          "Are all elements (people, objects, background) stylistically consistent?"
+        ],
+        "relevance": [
+          "Does the output resemble illustrations from beloved children's books?",
+          "Is the style gentle, soft, and age-appropriate for children's content?",
+          "Does the mood feel warm, nostalgic, and emotionally comforting?",
+          "Does it avoid elements inappropriate for children?"
+        ],
+        "usefulness": [
+          "Would this be suitable for a children's book page or nursery decor?",
+          "Is the image free of obvious digital artifacts or glitches?",
+          "Would parents feel comfortable using this for family-oriented content?",
+          "Is the resolution sufficient for printing?"
+        ],
+        "exceptional": [
+          "Does it look like it was illustrated by a professional children's book artist?",
+          "Does the transformation evoke feelings of warmth, joy, and childhood wonder?",
+          "Would users be excited to share this as 'my family as a storybook illustration'?",
+          "Does it have that 'I want to frame this' quality?",
+          "Does it stand out compared to other AI-generated storybook images?"
+        ]
+      }
+    },
+    "Anime": {
+      "description": "Japanese animation-inspired illustration with clean lines and expressive features",
+      "assertions": {
+        "accuracy": [
+          "Does the output exhibit anime-style large expressive eyes?",
+          "Is the subject recognizable as the same person from the original?",
+          "Does the image use anime-typical color saturation and cel-shading?",
+          "Are facial proportions adjusted in anime style while preserving identity?",
+          "Does the rendering match professional anime illustration quality?"
+        ],
+        "completeness": [
+          "Is the anime style applied to the entire image (no photo patches)?",
+          "Does the background feel like it belongs in an anime scene?",
+          "Are all subjects structurally intact (no broken limbs, warped faces)?",
+          "Is the style saturation appropriate (vibrant but not garish)?",
+          "Are all elements (people, hair, clothing, background) stylistically consistent?"
+        ],
+        "relevance": [
+          "Does the output resemble professional anime or manga illustrations?",
+          "Is the style consistent with popular anime aesthetics (Studio Ghibli, modern anime)?",
+          "Does the mood feel dynamic, expressive, and true to anime genre?",
+          "Does it avoid elements inconsistent with anime style?"
+        ],
+        "usefulness": [
+          "Would this be suitable as anime fan art or profile picture?",
+          "Is the image free of obvious digital artifacts or glitches?",
+          "Is the subject clearly recognizable in the anime style?",
+          "Is the resolution sufficient for digital display or printing?"
+        ],
+        "exceptional": [
+          "Does it look like it was drawn by a professional anime artist?",
+          "Does the transformation capture the charm and appeal of anime characters?",
+          "Would users be excited to share this as 'my anime version'?",
+          "Does it have that 'anime protagonist' quality?",
+          "Does it stand out compared to other AI-generated anime images?"
+        ]
+      }
+    },
+    "Pop Art": {
+      "description": "Bold, graphic style inspired by Warhol/Lichtenstein with halftone dots and vivid colors",
+      "assertions": {
+        "accuracy": [
+          "Does the output exhibit pop art halftone dot patterns or Ben-Day dots?",
+          "Is the subject recognizable as the same person from the original?",
+          "Does the image use bold, limited color palette typical of pop art?",
+          "Are outlines strong and graphic in pop art style?",
+          "Does the rendering match professional pop art illustration quality?"
+        ],
+        "completeness": [
+          "Is the pop art style applied to the entire image (no photo patches)?",
+          "Does the background use pop art elements (solid colors, dots, speech bubbles)?",
+          "Are all subjects structurally intact (no broken limbs, warped faces)?",
+          "Is the color blocking bold and distinct as expected in pop art?",
+          "Are all elements stylistically consistent with pop art aesthetic?"
+        ],
+        "relevance": [
+          "Does the output resemble works by Warhol, Lichtenstein, or comic book art?",
+          "Is the style bold, graphic, and visually striking?",
+          "Does the mood feel energetic, commercial, and culturally iconic?",
+          "Does it avoid elements inconsistent with pop art style?"
+        ],
+        "usefulness": [
+          "Would this be suitable for posters, merchandise, or social media?",
+          "Is the image free of obvious digital artifacts or glitches?",
+          "Is the subject clearly recognizable despite the simplified style?",
+          "Is the resolution sufficient for printing or digital display?"
+        ],
+        "exceptional": [
+          "Does it look like it could be displayed in a modern art museum?",
+          "Does the transformation capture the bold, iconic feel of classic pop art?",
+          "Would users be excited to share this as their 'Warhol-style portrait'?",
+          "Does it have that 'iconic poster' quality?",
+          "Does it stand out compared to other AI-generated pop art images?"
+        ]
+      }
+    },
+    "Neon Cyberpunk": {
+      "description": "Futuristic neon-lit cyberpunk scene with vibrant glowing effects",
+      "assertions": {
+        "accuracy": [
+          "Does the output feature prominent neon lighting effects (glowing edges, light trails)?",
+          "Is the subject recognizable as the same person/scene from the original?",
+          "Does the image use a cyberpunk color palette (pink, blue, purple neons against dark backgrounds)?",
+          "Are facial features and poses preserved from the original?",
+          "Does the style feel authentic to the cyberpunk genre?"
+        ],
+        "completeness": [
+          "Is the cyberpunk style applied consistently across the entire image?",
+          "Does the background include futuristic elements (cityscape, rain, holograms)?",
+          "Are all subjects structurally intact (no broken limbs, warped faces)?",
+          "Are the neon effects balanced (not overwhelming the subject)?",
+          "Are all elements stylistically consistent with cyberpunk aesthetic?"
+        ],
+        "relevance": [
+          "Does the output evoke Blade Runner / Cyberpunk 2077 aesthetic?",
+          "Are the added elements (neon, rain, city) consistent with cyberpunk genre?",
+          "Does the mood feel futuristic, edgy, and technologically advanced?",
+          "Does it avoid elements inconsistent with cyberpunk?"
+        ],
+        "usefulness": [
+          "Would this work as a profile picture or social media post?",
+          "Is the image free of obvious digital artifacts or glitches?",
+          "Do the neon effects enhance rather than obscure the subject?",
+          "Is the resolution sufficient for digital display?"
+        ],
+        "exceptional": [
+          "Does it look like professional cyberpunk concept art or movie promotional material?",
+          "Do the neon effects and atmosphere create visual 'wow factor'?",
+          "Would users be excited to share this as their 'cyberpunk version'?",
+          "Is it comparable to high-quality cyberpunk artwork?",
+          "Does it stand out compared to other AI-generated cyberpunk images?"
+        ]
+      }
+    },
+    "Oil Painting Renaissance": {
+      "description": "Classical oil painting with Renaissance-era artistic qualities",
+      "assertions": {
+        "accuracy": [
+          "Does the output exhibit visible brushstroke textures characteristic of oil paintings?",
+          "Is the subject recognizable as the same person/scene from the original?",
+          "Does the image use a warm, classical color palette typical of Renaissance art?",
+          "Are facial features and poses preserved from the original?",
+          "Does the style feel authentic to Renaissance masters (Rembrandt, Vermeer, da Vinci)?"
+        ],
+        "completeness": [
+          "Is the oil painting style applied to the entire image (no photo patches)?",
+          "Does the background complement the subject with Renaissance-appropriate tones?",
+          "Are all subjects structurally intact (no broken limbs, warped faces)?",
+          "Is dramatic chiaroscuro lighting (strong light/shadow contrast) present?",
+          "Are all elements stylistically consistent with oil painting aesthetic?"
+        ],
+        "relevance": [
+          "Does the output resemble classical Renaissance paintings?",
+          "Is strong light/shadow contrast (chiaroscuro) present?",
+          "Does the mood feel timeless, classical, and museum-worthy?",
+          "Does it avoid modern elements inconsistent with Renaissance style?"
+        ],
+        "usefulness": [
+          "Would this be suitable for printing and framing as wall art?",
+          "Is the image free of obvious digital artifacts or glitches?",
+          "Is canvas or brushstroke texture visible?",
+          "Is the resolution sufficient for printing?"
+        ],
+        "exceptional": [
+          "Could this hang in a museum alongside actual Renaissance paintings?",
+          "Does the transformation add artistic depth or gravitas to the original?",
+          "Would users be proud to share this as their 'Renaissance portrait'?",
+          "Does it have that 'timeless masterpiece' quality?",
+          "Does it stand out compared to other AI-generated oil painting images?"
+        ]
+      }
+    },
+    "Paper Cut Art": {
+      "description": "Layered paper cut artwork with tactile, handcrafted aesthetic",
+      "assertions": {
+        "accuracy": [
+          "Does the output exhibit visible layered paper depth with shadow effects?",
+          "Is the subject recognizable as the same person/scene from the original?",
+          "Does the image have clean, cut-edge aesthetics typical of paper art?",
+          "Are shapes and forms preserved from the original?",
+          "Does the style feel authentic to paper cut/kirigami artwork?"
+        ],
+        "completeness": [
+          "Is the paper cut style applied to the entire image (no photo patches)?",
+          "Does the background use complementary paper layers or textured backdrop?",
+          "Are all subjects structurally intact (no broken limbs, warped faces)?",
+          "Are multiple visible depth layers present?",
+          "Are all elements stylistically consistent with paper cut aesthetic?"
+        ],
+        "relevance": [
+          "Does the output resemble actual paper cut/kirigami artwork?",
+          "Is visible depth suggesting multiple paper layers present?",
+          "Does the mood feel handcrafted, tactile, and artisanal?",
+          "Does it avoid elements inconsistent with paper craft aesthetic?"
+        ],
+        "usefulness": [
+          "Would this be suitable for a greeting card or craft-themed presentation?",
+          "Is the image free of obvious digital artifacts or glitches?",
+          "Is the subject clearly visible despite the simplified paper cut aesthetic?",
+          "Is the resolution sufficient for printing?"
+        ],
+        "exceptional": [
+          "Does it look like professional paper cut art that took hours to craft by hand?",
+          "Does the layered depth create a satisfying 3D-like visual effect?",
+          "Would users be delighted to share this as a unique artistic transformation?",
+          "Does it have that 'I want this as physical paper art' quality?",
+          "Does it stand out compared to other AI-generated paper cut images?"
+        ]
+      }
+    }
+  }
+}

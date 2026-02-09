@@ -1,0 +1,57 @@
+# Credentials and auth
+auth_state.json
+.mcp.json
+.env
+
+# Generated reports (large binary files)
+*.docx
+*.pptx
+*.xlsx
+
+# Screenshots and images (captured during test runs)
+benchmark_*.png
+benchmark_*.jpeg
+screenshots/
+.playwright-mcp/
+
+# Browser profiles
+chrome_profile/
+results/extensive_bugbash/chrome_profile/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Base64 dumps
+*_b64.txt
+
+# Claude Code working directory
+.claude/
+
+# Gemini MCP output
+gemini-output/
+
+# Temporary files
+nul
+_ul
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Per-run output images (keep run_spec.json and JSON results)
+runs/*/originals/
+runs/*/restyled/
+
+# Backup files from Excel format migration
+*.xls.bak

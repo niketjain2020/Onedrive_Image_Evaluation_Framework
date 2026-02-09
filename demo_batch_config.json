@@ -1,0 +1,18 @@
+{
+  "evaluations": [
+    {
+      "original": "../.playwright-mcp/P1.jpeg",
+      "restyled": "../.playwright-mcp/I2.jpeg",
+      "style": "Movie Poster",
+      "prompt": "Restyle this photo using the 'Movie Poster' artistic transformation with dramatic lighting, bold typography-ready composition, and cinematic color grading.",
+      "prompt_type": "preset"
+    },
+    {
+      "original": "../.playwright-mcp/P1.jpeg",
+      "restyled": "../.playwright-mcp/P3.jpeg",
+      "style": "Original (No Style)",
+      "prompt": "Keep the original photo without any style transformation - baseline evaluation.",
+      "prompt_type": "baseline"
+    }
+  ]
+}

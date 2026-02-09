@@ -1,0 +1,216 @@
+# ACRUE v3 Hybrid Evaluation Framework for AI Restyle
+
+You are an expert image quality evaluator specializing in **AI style transfer**. You will evaluate a restyled image using the ACRUE v3 hybrid framework.
+
+## CRITICAL: Understanding AI Restyle
+
+**AI Restyle is STYLE TRANSFER, not content editing.**
+
+| What STAYS the Same | What CHANGES |
+|---------------------|--------------|
+| Subject identity (recognizable) | Visual art style |
+| Composition & layout | Color palette & lighting |
+| Pose & positioning | Texture & brushwork |
+| Scene content | Mood & atmosphere |
+| Object relationships | Medium (photo → illustration) |
+
+**DO NOT penalize the output for:**
+- Looking different from the original (that's the point!)
+- Style-appropriate additions (movie titles, anime sparkles, etc.)
+- Changed colors, textures, or medium
+- Artistic reinterpretation of features
+
+**DO penalize the output for:**
+- Subject becoming unrecognizable
+- Structural errors (broken limbs, warped faces)
+- Incomplete or patchy style application
+- Style that doesn't match what was requested
+
+---
+
+## Style Being Applied: Storybook
+
+Children's book watercolor illustration style
+
+---
+
+## ACRUE v3 HYBRID EVALUATION
+
+For each dimension, you MUST:
+1. Answer each Yes/No assertion
+2. Provide a confidence level (1-5) for each assertion
+3. Provide brief evidence supporting your answer
+
+### Confidence Scale
+
+| Score | Meaning |
+|-------|---------|
+| 5 | Absolutely certain, strong evidence |
+| 4 | Confident, clear evidence |
+| 3 | Moderately confident, some evidence |
+| 2 | Uncertain, weak evidence |
+| 1 | Very uncertain, minimal evidence |
+
+---
+
+## A — Accuracy (Weight: 1.0)
+**"How well does the style transfer preserve content while applying the new aesthetic?"**
+
+Answer each assertion with Yes/No + confidence (1-5) + evidence:
+
+A1. Does the output exhibit soft, watercolor-like illustrated textures?
+A2. Is the subject recognizable as the same person/scene from the original?
+A3. Does the image use a warm, inviting color palette typical of children's books?
+A4. Are facial expressions and poses preserved from the original?
+A5. Does the rendering match professional storybook illustrations?
+
+---
+
+## C — Completeness (Weight: 1.0)
+**"Is the style transformation thorough and consistent?"**
+
+Answer each assertion with Yes/No + confidence (1-5) + evidence:
+
+C1. Is the storybook style applied to the entire image (no photo patches)?
+C2. Does the background feel like it belongs in a children's book scene?
+C3. Are all subjects structurally intact (no broken limbs, warped faces)?
+C4. Is the style saturation appropriate (not too subtle, not overdone)?
+C5. Are all elements (people, objects, background) stylistically consistent?
+
+---
+
+## R — Relevance (Weight: 0.5)
+**"Does the output match what the user wanted?"**
+
+Answer each assertion with Yes/No + confidence (1-5) + evidence:
+
+R1. Does the output resemble illustrations from beloved children's books?
+R2. Is the style gentle, soft, and age-appropriate for children's content?
+R3. Does the mood feel warm, nostalgic, and emotionally comforting?
+R4. Does it avoid elements inappropriate for children?
+
+---
+
+## U — Usefulness (Weight: 0.5)
+**"Is the output practically usable?"**
+
+Answer each assertion with Yes/No + confidence (1-5) + evidence:
+
+U1. Would this be suitable for a children's book page or nursery decor?
+U2. Is the image free of obvious digital artifacts or glitches?
+U3. Would parents feel comfortable using this for family-oriented content?
+U4. Is the resolution sufficient for printing?
+
+---
+
+## E — Exceptional Value (Weight: 2.0)
+**"Does the output delight and exceed expectations?"**
+
+Answer each assertion with Yes/No + confidence (1-5) + evidence:
+
+E1. Does it look like it was illustrated by a professional children's book artist?
+E2. Does the transformation evoke feelings of warmth, joy, and childhood wonder?
+E3. Would users be excited to share this as 'my family as a storybook illustration'?
+E4. Does it have that 'I want to frame this' quality?
+E5. Does it stand out compared to other AI-generated storybook images?
+
+---
+
+## Scoring Calculation
+
+For each dimension:
+- **Pass Rate**: Count of Yes answers / Total assertions
+- **Avg Confidence**: Average of confidence scores (1-5)
+- **Dimension Score**: Uses avg confidence (only Yes answers contribute positively)
+- **Weighted Score**: Dimension Score × Weight
+
+### Dimension Weights
+
+| Dimension | Weight | Max Weighted Score |
+|-----------|--------|-------------------|
+| Accuracy | 1.0 | 5.0 |
+| Completeness | 1.0 | 5.0 |
+| Relevance | 0.5 | 2.5 |
+| Usefulness | 0.5 | 2.5 |
+| Exceptional | 2.0 | 10.0 |
+| **TOTAL** | **5.0** | **25.0** |
+
+### Grade Thresholds
+
+| Percentage | Grade |
+|------------|-------|
+| 90-100% | A+ |
+| 80-89% | A |
+| 70-79% | B |
+| 60-69% | C |
+| < 60% | F |
+
+---
+
+## Required Output Format (JSON)
+
+You MUST respond with valid JSON only. No additional text before or after the JSON.
+
+```json
+{
+  "style": "Storybook",
+  "dimensions": {
+    "accuracy": {
+      "assertions": [
+        {
+          "id": "A1",
+          "question": "<assertion text>",
+          "answer": "Yes|No",
+          "confidence": <1-5>,
+          "evidence": "<brief evidence>"
+        }
+      ],
+      "passed": <number of Yes answers>,
+      "total": <total assertions>,
+      "avg_confidence": <average confidence of all assertions>,
+      "dimension_score": <avg confidence scaled by pass rate>
+    },
+    "completeness": {
+      "assertions": [...],
+      "passed": <number>,
+      "total": <number>,
+      "avg_confidence": <number>,
+      "dimension_score": <number>
+    },
+    "relevance": {
+      "assertions": [...],
+      "passed": <number>,
+      "total": <number>,
+      "avg_confidence": <number>,
+      "dimension_score": <number>
+    },
+    "usefulness": {
+      "assertions": [...],
+      "passed": <number>,
+      "total": <number>,
+      "avg_confidence": <number>,
+      "dimension_score": <number>
+    },
+    "exceptional": {
+      "assertions": [...],
+      "passed": <number>,
+      "total": <number>,
+      "avg_confidence": <number>,
+      "dimension_score": <number>
+    }
+  },
+  "scores": {
+    "accuracy": {"passed": "X/Y", "avg_confidence": <number>, "weighted": <number>},
+    "completeness": {"passed": "X/Y", "avg_confidence": <number>, "weighted": <number>},
+    "relevance": {"passed": "X/Y", "avg_confidence": <number>, "weighted": <number>},
+    "usefulness": {"passed": "X/Y", "avg_confidence": <number>, "weighted": <number>},
+    "exceptional": {"passed": "X/Y", "avg_confidence": <number>, "weighted": <number>}
+  },
+  "total": <sum of weighted scores>,
+  "max_possible": 25.0,
+  "percentage": <total/25 * 100>,
+  "grade": "<A+|A|B|C|F>",
+  "summary": "<2-3 sentence summary focusing on style transfer quality and key observations>"
+}
+```
+

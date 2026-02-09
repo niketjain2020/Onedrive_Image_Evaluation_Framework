@@ -1,0 +1,923 @@
+[
+  {
+    "evaluation_id": "5d26ac4f-87a4-457a-a605-fa29d906d5c6",
+    "timestamp": "2026-02-01T14:11:09.891489Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\P1.jpeg",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\I2.jpeg",
+    "style": "Movie Poster",
+    "scores": {
+      "accuracy": {
+        "weight": 1.0,
+        "sub_scores": {
+          "faithfulness": {
+            "score": 1,
+            "rationale": "The subject's identity is completely changed. The original person is not present in the restyled image."
+          },
+          "technical_alignment": {
+            "score": 1,
+            "rationale": "There's no relation in technical aspects. No elements or attributes from the original image are transferred to the style image. The styling of a movie poster is present, however the subject matter fails to align."
+          },
+          "subject_identity": {
+            "score": 1,
+            "rationale": "The main subject is not present and there are multiple children in the stylied image. The subjects have been hallucinated and fail to maintain any resemblance."
+          },
+          "no_hallucinations": {
+            "score": 1,
+            "rationale": "The new image entirely hallucinates new subjects. None of them are present in the original image, completely changes the content and context of the subject of the picture."
+          }
+        },
+        "dimension_score": 1.0,
+        "weighted_score": 1.0
+      },
+      "completeness": {
+        "weight": 1.0,
+        "sub_scores": {
+          "subject_retention": {
+            "score": 1,
+            "rationale": "The subject is not retained in the transformation. The individual in the original image is entirely absent."
+          },
+          "context_retention": {
+            "score": 1,
+            "rationale": "The context is changed completely. No aspect of the original picture is transferred into the restyled picture."
+          },
+          "prompt_coverage": {
+            "score": 3,
+            "rationale": "The stylistic elements of a movie poster have been applied, but the subject matter is entirely different. The request to apply a 'Movie Poster' style has been applied, but the content of the movie poster is hallucinated."
+          },
+          "global_consistency": {
+            "score": 5,
+            "rationale": "The style is consistent and uniform throughout the new image. It does not have patchiness or blended artifacts."
+          },
+          "structural_coherence": {
+            "score": 5,
+            "rationale": "The image is structurally coherent, with no impossible blends or broken structures. The image as a whole appears structurally sound."
+          }
+        },
+        "dimension_score": 3.0,
+        "weighted_score": 3.0
+      },
+      "relevance": {
+        "weight": 0.5,
+        "sub_scores": {
+          "intent_alignment": {
+            "score": 1,
+            "rationale": "The intent to re-style the photo into a movie poster is not aligned. The output does not retain the subject from the original image."
+          },
+          "theme_mood_match": {
+            "score": 3,
+            "rationale": "The theme and mood of a children's adventure movie poster are present, however it is unrelated to the person in the original photo."
+          }
+        },
+        "dimension_score": 2.0,
+        "weighted_score": 1.0
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "sub_scores": {
+          "share_ready": {
+            "score": 4,
+            "rationale": "The output is of reasonable quality to be shareable on social media in itself, but it fails to meet the original request."
+          },
+          "clarity": {
+            "score": 5,
+            "rationale": "The image is clear and not muddy or confusing. The subjects are distinguishable and clear."
+          },
+          "no_artifacts": {
+            "score": 5,
+            "rationale": "There are no noticeable visual glitches or artifacts on the image itself. All elements appear natural and realistic."
+          },
+          "practical_usability": {
+            "score": 4,
+            "rationale": "It could be used as intended (sharing, printing) but has no relevance to the requested subject in the prompt."
+          }
+        },
+        "dimension_score": 4.5,
+        "weighted_score": 2.25
+      },
+      "exceptional_value": {
+        "weight": 2.0,
+        "sub_scores": {
+          "tasteful_novelty": {
+            "score": 5,
+            "rationale": "The creative additions are aligned with the genre of the prompt and tastefully executed, as a movie poster."
+          },
+          "compositional_lift": {
+            "score": 5,
+            "rationale": "The framing, balance, and depth are improved compared to the original image. It has a compelling depth with its scenery."
+          },
+          "stylistic_distinction": {
+            "score": 5,
+            "rationale": "The movie poster style is confidently and recognizably executed. Elements such as the title, beach scenery, and subjects."
+          },
+          "narrative_coherence": {
+            "score": 5,
+            "rationale": "The output conveys a strong implicit story of children chasing after the sun. It has a mood of adventure."
+          },
+          "signature_details": {
+            "score": 5,
+            "rationale": "The details such as the reflection of the children on the beach are well executed and elevates the craft."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 10.0
+      }
+    },
+    "summary": {
+      "weighted_total": 17.25,
+      "max_score": 25.0,
+      "percentage": 69.0,
+      "grade": "C"
+    },
+    "overall_assessment": "The subject matter is not retained, however the image itself is executed in good composition and thematic details for a movie poster. The restyled output completely changes the subject of the original picture."
+  },
+  {
+    "evaluation_id": "9b322e1f-97ff-4077-ba1a-491589595359",
+    "timestamp": "2026-02-01T14:14:14.918285Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\P1.jpeg",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\I2.jpeg",
+    "style": "Movie Poster",
+    "scores": {
+      "accuracy": {
+        "weight": 1.0,
+        "sub_scores": {
+          "faithfulness": {
+            "score": 1,
+            "rationale": "The restyled image does not retain any key elements from the original. The subject has been replaced entirely."
+          },
+          "technical_alignment": {
+            "score": 3,
+            "rationale": "The technical aspects like palette and lighting are movie poster-like, but applied to an entirely new subject and scene."
+          },
+          "subject_identity": {
+            "score": 1,
+            "rationale": "The subject's identity from the original image is completely lost; a new person is in the generated image."
+          },
+          "no_hallucinations": {
+            "score": 5,
+            "rationale": "There aren't any significant unintended additions or distortions in the generated image itself."
+          }
+        },
+        "dimension_score": 2.5,
+        "weighted_score": 2.5
+      },
+      "completeness": {
+        "weight": 1.0,
+        "sub_scores": {
+          "subject_retention": {
+            "score": 1,
+            "rationale": "The primary subject is not retained at all. It's a different person entirely."
+          },
+          "context_retention": {
+            "score": 1,
+            "rationale": "The context (suit, car, urban setting) is completely changed to a beach scene with children."
+          },
+          "prompt_coverage": {
+            "score": 2,
+            "rationale": "While the image is styled as a movie poster, the coverage of the original content is non-existent."
+          },
+          "global_consistency": {
+            "score": 5,
+            "rationale": "The new image is consistent within itself; there is no patchiness in its style."
+          },
+          "structural_coherence": {
+            "score": 5,
+            "rationale": "The figures in the image are structurally sound and coherent."
+          }
+        },
+        "dimension_score": 2.8,
+        "weighted_score": 2.8
+      },
+      "relevance": {
+        "weight": 0.5,
+        "sub_scores": {
+          "intent_alignment": {
+            "score": 1,
+            "rationale": "The output does not align with the intent of restyling the original image, as it changes the subject entirely."
+          },
+          "theme_mood_match": {
+            "score": 4,
+            "rationale": "The theme/mood of a family adventure movie poster is well-matched in the new image."
+          }
+        },
+        "dimension_score": 2.5,
+        "weighted_score": 1.25
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "sub_scores": {
+          "share_ready": {
+            "score": 4,
+            "rationale": "The image is share-ready, visually appealing and suitable for social media."
+          },
+          "clarity": {
+            "score": 5,
+            "rationale": "The image is clear and not muddy."
+          },
+          "no_artifacts": {
+            "score": 5,
+            "rationale": "The image is clean without visual glitches."
+          },
+          "practical_usability": {
+            "score": 4,
+            "rationale": "It can be used as a movie poster, which aligns with its created style."
+          }
+        },
+        "dimension_score": 4.5,
+        "weighted_score": 2.25
+      },
+      "exceptional_value": {
+        "weight": 2.0,
+        "sub_scores": {
+          "tasteful_novelty": {
+            "score": 4,
+            "rationale": "The creative additions of a beach scene with kids are tastefully executed and suitable for a family movie poster."
+          },
+          "compositional_lift": {
+            "score": 4,
+            "rationale": "The framing and depth are well-executed and improved over the original's simple portrait."
+          },
+          "stylistic_distinction": {
+            "score": 5,
+            "rationale": "The style is confidently executed and easily recognizable as a movie poster."
+          },
+          "narrative_coherence": {
+            "score": 4,
+            "rationale": "The image conveys a strong sense of family adventure and fun."
+          },
+          "signature_details": {
+            "score": 3,
+            "rationale": "There are some nice details, like the reflections on the wet sand, but no exceptional micro details that stand out."
+          }
+        },
+        "dimension_score": 4.0,
+        "weighted_score": 8.0
+      }
+    },
+    "summary": {
+      "weighted_total": 16.8,
+      "max_score": 25.0,
+      "percentage": 67.2,
+      "grade": "C"
+    },
+    "overall_assessment": "The restyled image effectively adopts a movie poster style, but completely disregards the original image content, replacing it with a new scene and characters. While the new image is well-executed and visually appealing, it fails to preserve any elements from the original, drastically reducing its overall usefulness for restyling."
+  },
+  {
+    "evaluation_id": "eef7732a-1783-42e2-a0cf-8845480b62fe",
+    "timestamp": "2026-02-01T14:14:22.108706Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\P1.jpeg",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\P3.jpeg",
+    "style": "Original (No Style)",
+    "scores": {
+      "accuracy": {
+        "weight": 1.0,
+        "sub_scores": {
+          "faithfulness": {
+            "score": 5,
+            "rationale": "The restyled image perfectly preserves all key elements of the original image."
+          },
+          "technical_alignment": {
+            "score": 5,
+            "rationale": "Since the style is 'Original (No Style)', the restyled image correctly aligns with the original in terms of palette, lighting, and texture."
+          },
+          "subject_identity": {
+            "score": 5,
+            "rationale": "The subject's identity is perfectly preserved in the restyled image."
+          },
+          "no_hallucinations": {
+            "score": 5,
+            "rationale": "There are no unintended additions, artifacts, or distortions in the restyled image."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 5.0
+      },
+      "completeness": {
+        "weight": 1.0,
+        "sub_scores": {
+          "subject_retention": {
+            "score": 5,
+            "rationale": "All primary subjects and salient features are retained."
+          },
+          "context_retention": {
+            "score": 5,
+            "rationale": "Props, vehicles, and environment cues are appropriately kept."
+          },
+          "prompt_coverage": {
+            "score": 5,
+            "rationale": "The 'no style' prompt is perfectly adhered to."
+          },
+          "global_consistency": {
+            "score": 5,
+            "rationale": "The restyled image maintains global consistency with the original."
+          },
+          "structural_coherence": {
+            "score": 5,
+            "rationale": "Forms are coherent, with no impossible blends or broken structures."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 5.0
+      },
+      "relevance": {
+        "weight": 0.5,
+        "sub_scores": {
+          "intent_alignment": {
+            "score": 5,
+            "rationale": "The output aligns perfectly with the user's implied goal of retaining the original style."
+          },
+          "theme_mood_match": {
+            "score": 5,
+            "rationale": "The artistic direction appropriately fits the 'no style' request."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 2.5
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "sub_scores": {
+          "share_ready": {
+            "score": 5,
+            "rationale": "The output quality is suitable for sharing on social media."
+          },
+          "clarity": {
+            "score": 5,
+            "rationale": "The image is clear and not muddy or confusing."
+          },
+          "no_artifacts": {
+            "score": 5,
+            "rationale": "The output is clean without visual glitches."
+          },
+          "practical_usability": {
+            "score": 5,
+            "rationale": "The restyled image can be used for its intended purpose, such as sharing or printing."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 2.5
+      },
+      "exceptional_value": {
+        "weight": 2.0,
+        "sub_scores": {
+          "tasteful_novelty": {
+            "score": 3,
+            "rationale": "Since the style is 'Original (No Style)', there is no novelty. It neither adds nor detracts."
+          },
+          "compositional_lift": {
+            "score": 3,
+            "rationale": "The restyled image maintains the same composition as the original. There is no compositional lift, but also no degradation."
+          },
+          "stylistic_distinction": {
+            "score": 3,
+            "rationale": "The style is the same, so there is no real stylistic distinction."
+          },
+          "narrative_coherence": {
+            "score": 3,
+            "rationale": "The restyled image conveys the same narrative as the original."
+          },
+          "signature_details": {
+            "score": 3,
+            "rationale": "There are no added signature details as requested."
+          }
+        },
+        "dimension_score": 3.0,
+        "weighted_score": 6.0
+      }
+    },
+    "summary": {
+      "weighted_total": 21.0,
+      "max_score": 25.0,
+      "percentage": 84.0,
+      "grade": "A"
+    },
+    "overall_assessment": "The restyled image successfully maintains the original style. The transformation is accurate and complete, fulfilling the request effectively by making no changes."
+  },
+  {
+    "evaluation_id": "b76e66fb-2992-4063-b7b0-055cc7da95d8",
+    "timestamp": "2026-02-01T15:00:21.703206Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\I2.jpeg",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\img2-01-movie-poster.png",
+    "style": "Movie Poster",
+    "rubric_version": "restyle-v1",
+    "scores": {
+      "accuracy": {
+        "weight": 1.0,
+        "sub_scores": {
+          "identity_preservation": {
+            "score": 1,
+            "rationale": "None of the people in the original image can be seen in the restyled image. Faces are not preserved at all."
+          },
+          "style_authenticity": {
+            "score": 2,
+            "rationale": "It has a movie poster look, but it's more of a cartoon movie poster. The focus on the grocery items is not what I'd expect for this style either."
+          },
+          "composition_fidelity": {
+            "score": 1,
+            "rationale": "The original composition is completely gone. The people running on the beach are replaced by a woman and child in a supermarket."
+          },
+          "appropriate_additions": {
+            "score": 4,
+            "rationale": "The \"Grocery Quest\" text fits the general animated movie style. The tagline is appropriate, too."
+          }
+        },
+        "dimension_score": 2.0,
+        "weighted_score": 2.0
+      },
+      "completeness": {
+        "weight": 1.0,
+        "sub_scores": {
+          "subject_coverage": {
+            "score": 5,
+            "rationale": "All parts of the subject (woman, child, cart, groceries) are styled appropriately."
+          },
+          "background_harmony": {
+            "score": 5,
+            "rationale": "The supermarket background is consistent with the overall cartoon movie poster aesthetic."
+          },
+          "style_saturation": {
+            "score": 5,
+            "rationale": "The style is strongly applied and not subtle."
+          },
+          "global_consistency": {
+            "score": 5,
+            "rationale": "The style is uniform throughout the image."
+          },
+          "structural_integrity": {
+            "score": 5,
+            "rationale": "No structural issues are present."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 5.0
+      },
+      "relevance": {
+        "weight": 0.5,
+        "sub_scores": {
+          "style_match": {
+            "score": 2,
+            "rationale": "It's a movie poster, but the complete change in content is a major miss. The resulting image is not related to the original image at all."
+          },
+          "mood_alignment": {
+            "score": 4,
+            "rationale": "The restyled image feels playful and adventurous, which is somewhat appropriate for an animated movie poster."
+          }
+        },
+        "dimension_score": 3.0,
+        "weighted_score": 1.5
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "sub_scores": {
+          "share_ready": {
+            "score": 5,
+            "rationale": "The output is visually appealing and suitable for sharing."
+          },
+          "visual_clarity": {
+            "score": 5,
+            "rationale": "The image is clear and easy to understand."
+          },
+          "artifact_free": {
+            "score": 5,
+            "rationale": "No distracting glitches or errors are visible."
+          },
+          "practical_quality": {
+            "score": 5,
+            "rationale": "The resolution and quality seem good enough for practical use."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 2.5
+      },
+      "exceptional_value": {
+        "weight": 2.0,
+        "sub_scores": {
+          "style_mastery": {
+            "score": 3,
+            "rationale": "It's a competent rendition of an animated movie poster, but not exceptionally unique."
+          },
+          "creative_enhancement": {
+            "score": 4,
+            "rationale": "The text additions are a nice creative touch."
+          },
+          "emotional_impact": {
+            "score": 4,
+            "rationale": "The image does evoke a sense of playful adventure."
+          },
+          "distinctive_character": {
+            "score": 3,
+            "rationale": "It's a solid execution, but not particularly groundbreaking."
+          },
+          "shareability_factor": {
+            "score": 4,
+            "rationale": "People would likely share it, especially if they have kids."
+          }
+        },
+        "dimension_score": 3.6,
+        "weighted_score": 7.2
+      }
+    },
+    "summary": {
+      "weighted_total": 18.2,
+      "max_score": 25.0,
+      "percentage": 72.8,
+      "grade": "B"
+    },
+    "overall_assessment": "The style transfer mostly failed because the content from the original image was completely replaced. While the resulting image fits the animated movie poster style reasonably well, the lack of content preservation makes it unsuccessful as a style transfer."
+  },
+  {
+    "evaluation_id": "998ea3d0-dc21-4909-98c4-c23607446b9d",
+    "timestamp": "2026-02-01T15:00:41.098951Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\I2.jpeg",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\img2-03-anime.png",
+    "style": "Anime",
+    "rubric_version": "restyle-v1",
+    "scores": {
+      "accuracy": {
+        "weight": 1.0,
+        "sub_scores": {
+          "identity_preservation": {
+            "score": 1,
+            "rationale": "The subjects are no longer recognizable as the individuals from the original image. The faces and overall appearance have been completely altered."
+          },
+          "style_authenticity": {
+            "score": 2,
+            "rationale": "While there are some elements that suggest anime, such as the large eyes, the overall style does not fully capture the essence of authentic anime. There is not enough simplification of facial features and stylized hair."
+          },
+          "composition_fidelity": {
+            "score": 1,
+            "rationale": "The composition is completely different. The original layout of the group running on the beach is discarded and replaced with a woman and child in a supermarket."
+          },
+          "appropriate_additions": {
+            "score": 1,
+            "rationale": "The entire scene is different and the style doesn't follow the original theme. There are no additions. Complete mismatch."
+          }
+        },
+        "dimension_score": 1.25,
+        "weighted_score": 1.25
+      },
+      "completeness": {
+        "weight": 1.0,
+        "sub_scores": {
+          "subject_coverage": {
+            "score": 5,
+            "rationale": "The new subjects are entirely covered in the new style."
+          },
+          "background_harmony": {
+            "score": 5,
+            "rationale": "The background is now a supermarket scene and it complements the new characters well, providing context for their presence."
+          },
+          "style_saturation": {
+            "score": 3,
+            "rationale": "The style is applied, but it is not very intense. Could have had bolder line-work and more saturated colors as expected of anime."
+          },
+          "global_consistency": {
+            "score": 5,
+            "rationale": "The style is uniform across the new scene. The new characters are transformed consistently."
+          },
+          "structural_integrity": {
+            "score": 5,
+            "rationale": "The new subjects are structurally sound. There are no warped faces or broken limbs."
+          }
+        },
+        "dimension_score": 4.6,
+        "weighted_score": 4.6
+      },
+      "relevance": {
+        "weight": 0.5,
+        "sub_scores": {
+          "style_match": {
+            "score": 2,
+            "rationale": "It somewhat resembles anime style but with low authenticity. Could be mistaken for a generic cartoon style."
+          },
+          "mood_alignment": {
+            "score": 2,
+            "rationale": "The new image evokes a completely different feeling. The original evokes a sense of adventure and the new scene is a calm shopping scene."
+          }
+        },
+        "dimension_score": 2.0,
+        "weighted_score": 1.0
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "sub_scores": {
+          "share_ready": {
+            "score": 3,
+            "rationale": "The image is clear and usable, but the lack of accurate style transfer and content mismatch lowers its shareability."
+          },
+          "visual_clarity": {
+            "score": 4,
+            "rationale": "The image is visually clear and not muddy."
+          },
+          "artifact_free": {
+            "score": 5,
+            "rationale": "The image has no visible glitches or errors."
+          },
+          "practical_quality": {
+            "score": 4,
+            "rationale": "The resolution appears adequate for sharing."
+          }
+        },
+        "dimension_score": 4.0,
+        "weighted_score": 2.0
+      },
+      "exceptional_value": {
+        "weight": 2.0,
+        "sub_scores": {
+          "style_mastery": {
+            "score": 1,
+            "rationale": "The style application does not show style mastery and looks unlike that of a professional anime artist."
+          },
+          "creative_enhancement": {
+            "score": 1,
+            "rationale": "The scene change makes any attempt at creative enhancement moot."
+          },
+          "emotional_impact": {
+            "score": 1,
+            "rationale": "The style doesn't evoke the fun and excitement associated with the original photo or anime-style in general."
+          },
+          "distinctive_character": {
+            "score": 1,
+            "rationale": "The image has no distinctive character as an anime piece."
+          },
+          "shareability_factor": {
+            "score": 1,
+            "rationale": "The image is not very shareable due to the altered content and poor style transfer."
+          }
+        },
+        "dimension_score": 1.0,
+        "weighted_score": 2.0
+      }
+    },
+    "summary": {
+      "weighted_total": 10.85,
+      "max_score": 25.0,
+      "percentage": 43.4,
+      "grade": "F"
+    },
+    "overall_assessment": "The AI has completely changed the content of the image in addition to applying the style. Because the core identity, composition and subjects have been completely altered, this constitutes a failure of the AI restyle attempt despite some application of the requested aesthetic."
+  },
+  {
+    "evaluation_id": "8c7f2064-8e05-4116-a728-e116cd521679",
+    "timestamp": "2026-02-01T15:03:24.773901Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\test1_adult_original.png",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\prompt01_renaissance_oil_painting.png",
+    "style": "Renaissance Oil Painting",
+    "rubric_version": "restyle-v1",
+    "scores": {
+      "accuracy": {
+        "weight": 1.0,
+        "sub_scores": {
+          "identity_preservation": {
+            "score": 5,
+            "rationale": "The hummingbird and hibiscus flower are clearly recognizable and retain their original forms, despite the stylistic changes."
+          },
+          "style_authenticity": {
+            "score": 4,
+            "rationale": "The output effectively captures the Renaissance oil painting style with its soft lighting, warm colors, and painterly textures. It does a good job, though may need some more distinctive characteristics."
+          },
+          "composition_fidelity": {
+            "score": 5,
+            "rationale": "The composition of the image is very well preserved. The relative positions of the hummingbird and flower remain unchanged."
+          },
+          "appropriate_additions": {
+            "score": 5,
+            "rationale": "The style adds brush strokes and some light changes, both tasteful and not distracting. The background is also changed, but matches the new aesthetic."
+          }
+        },
+        "dimension_score": 4.75,
+        "weighted_score": 4.75
+      },
+      "completeness": {
+        "weight": 1.0,
+        "sub_scores": {
+          "subject_coverage": {
+            "score": 5,
+            "rationale": "The entire subject (hummingbird and flower) is consistently transformed into the Renaissance painting style."
+          },
+          "background_harmony": {
+            "score": 5,
+            "rationale": "The background has been modified to fit with the oil painting aesthetic and complements the subject very well."
+          },
+          "style_saturation": {
+            "score": 5,
+            "rationale": "The Renaissance painting style is applied with appropriate intensity, achieving a balanced and natural look."
+          },
+          "global_consistency": {
+            "score": 5,
+            "rationale": "The style is applied uniformly across the image, creating a cohesive and visually appealing result."
+          },
+          "structural_integrity": {
+            "score": 5,
+            "rationale": "The forms of the hummingbird and flower maintain their structural integrity, with no broken or warped features."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 5.0
+      },
+      "relevance": {
+        "weight": 0.5,
+        "sub_scores": {
+          "style_match": {
+            "score": 5,
+            "rationale": "The output clearly represents the requested Renaissance oil painting style."
+          },
+          "mood_alignment": {
+            "score": 5,
+            "rationale": "The warm colors and soft lighting evoke the expected mood of a classic Renaissance painting."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 2.5
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "sub_scores": {
+          "share_ready": {
+            "score": 5,
+            "rationale": "The restyled image is well-suited for sharing on social media."
+          },
+          "visual_clarity": {
+            "score": 5,
+            "rationale": "The image is clear and well-defined, maintaining visual clarity despite the style transformation."
+          },
+          "artifact_free": {
+            "score": 5,
+            "rationale": "There are no distracting glitches, errors, or unwanted artifacts in the image."
+          },
+          "practical_quality": {
+            "score": 5,
+            "rationale": "The image appears to have good resolution and would be printable if needed."
+          }
+        },
+        "dimension_score": 5.0,
+        "weighted_score": 2.5
+      },
+      "exceptional_value": {
+        "weight": 2.0,
+        "sub_scores": {
+          "style_mastery": {
+            "score": 4,
+            "rationale": "While good, it could have a more distinctive character to resemble classic works."
+          },
+          "creative_enhancement": {
+            "score": 4,
+            "rationale": "The AI enhances the image with stylistic details that improve its overall aesthetic appeal."
+          },
+          "emotional_impact": {
+            "score": 5,
+            "rationale": "The image evokes a sense of classic beauty, fitting the Renaissance style perfectly."
+          },
+          "distinctive_character": {
+            "score": 4,
+            "rationale": "The final output could stand to possess more distinctive qualities typically found in Renaissance paintings to elevate the overall execution."
+          },
+          "shareability_factor": {
+            "score": 5,
+            "rationale": "Users would likely be excited to share this visually appealing and artistically styled image."
+          }
+        },
+        "dimension_score": 4.4,
+        "weighted_score": 8.8
+      }
+    },
+    "summary": {
+      "weighted_total": 23.55,
+      "max_score": 25.0,
+      "percentage": 94.2,
+      "grade": "A+"
+    },
+    "overall_assessment": "The AI successfully transformed the original photograph into a Renaissance oil painting style, maintaining the identity of the subject and demonstrating good style transfer quality. The resulting image is visually appealing and consistent with the requested aesthetic."
+  },
+  {
+    "evaluation_id": "fe56614e-f9f0-40e1-991e-90322a7c9fba",
+    "timestamp": "2026-02-01T15:03:51.103335Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\test1_adult_original.png",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\prompt05_japanese_ukiyoe.png",
+    "style": "Japanese Ukiyo-e",
+    "rubric_version": "restyle-v1",
+    "scores": {
+      "accuracy": {
+        "weight": 1.0,
+        "sub_scores": {
+          "identity_preservation": {
+            "score": 5,
+            "rationale": "The hummingbird and flower are easily recognizable from the original image, maintaining their key features and proportions."
+          },
+          "style_authenticity": {
+            "score": 4,
+            "rationale": "The image adopts a woodblock print style reminiscent of Ukiyo-e, with distinct lines and a limited color palette, capturing some of the style's essence. The clouds in the background are a good addition."
+          },
+          "composition_fidelity": {
+            "score": 5,
+            "rationale": "The composition, pose, and spatial relationships between the hummingbird and flower remain nearly identical to the original image."
+          },
+          "appropriate_additions": {
+            "score": 5,
+            "rationale": "The added woodblock style elements, such as visible print textures and simplified background, are appropriate and enhance the overall aesthetic."
+          }
+        },
+        "dimension_score": 4.75,
+        "weighted_score": 4.75
+      },
+      "completeness": {
+        "weight": 1.0,
+        "sub_scores": {
+          "subject_coverage": {
+            "score": 5,
+            "rationale": "The style transformation covers the entire subject, ensuring no parts are left in the original photographic style."
+          },
+          "background_harmony": {
+            "score": 5,
+            "rationale": "The background has been completely transformed to match the Ukiyo-e style, harmonizing with the subject."
+          },
+          "style_saturation": {
+            "score": 4,
+            "rationale": "The style is applied with good intensity, balancing the details and characteristic elements of the requested art style. Could be a little more pronounced, but generally very good."
+          },
+          "global_consistency": {
+            "score": 5,
+            "rationale": "The style is consistently applied across the entire image, ensuring a unified and cohesive look."
+          },
+          "structural_integrity": {
+            "score": 5,
+            "rationale": "The forms of the hummingbird and flower remain structurally sound and anatomically correct, with no distortions or broken elements."
+          }
+        },
+        "dimension_score": 4.8,
+        "weighted_score": 4.8
+      },
+      "relevance": {
+        "weight": 0.5,
+        "sub_scores": {
+          "style_match": {
+            "score": 5,
+            "rationale": "The image clearly represents the requested Ukiyo-e style through its lines, color scheme, and overall aesthetic, creating a successful visual transformation."
+          },
+          "mood_alignment": {
+            "score": 4,
+            "rationale": "The emotional tone aligns with the typical Ukiyo-e style, creating a sense of serene beauty and delicate elegance. The image style evokes a sense of calm and admiration."
+          }
+        },
+        "dimension_score": 4.5,
+        "weighted_score": 2.25
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "sub_scores": {
+          "share_ready": {
+            "score": 5,
+            "rationale": "The image is visually appealing and well-executed, making it suitable for sharing on social media platforms."
+          },
+          "visual_clarity": {
+            "score": 4,
+            "rationale": "The image retains good visual clarity, allowing the details of the hummingbird and flower to be clearly seen despite the transformation, though the texture might obscure details slightly at a distance."
+          },
+          "artifact_free": {
+            "score": 5,
+            "rationale": "The image appears to be free of distracting glitches or errors, ensuring a clean and polished final product."
+          },
+          "practical_quality": {
+            "score": 4,
+            "rationale": "The image has good resolution, making it suitable for printing or using in digital projects; however, more high-resolution would make this a 5."
+          }
+        },
+        "dimension_score": 4.5,
+        "weighted_score": 2.25
+      },
+      "exceptional_value": {
+        "weight": 2.0,
+        "sub_scores": {
+          "style_mastery": {
+            "score": 4,
+            "rationale": "The style transformation is well-executed, and the image feels like a real print."
+          },
+          "creative_enhancement": {
+            "score": 4,
+            "rationale": "The stylistic enhancement adds an extra dimension to the image, improving its overall beauty and artistic value. The background in particular greatly enhances the image."
+          },
+          "emotional_impact": {
+            "score": 4,
+            "rationale": "The image evokes a sense of serene beauty and delicate elegance, aligning with the emotional tone associated with Japanese art forms."
+          },
+          "distinctive_character": {
+            "score": 4,
+            "rationale": "The image has a distinctive character, showcasing a clear application of the Ukiyo-e style and making it recognizable as a unique piece of digital art."
+          },
+          "shareability_factor": {
+            "score": 5,
+            "rationale": "The image is visually striking and well-crafted, increasing the likelihood that users would be excited to share it on social media or other platforms."
+          }
+        },
+        "dimension_score": 4.2,
+        "weighted_score": 8.4
+      }
+    },
+    "summary": {
+      "weighted_total": 22.45,
+      "max_score": 25.0,
+      "percentage": 89.8,
+      "grade": "A"
+    },
+    "overall_assessment": "The restyled image effectively transforms the original photograph into a visually appealing Ukiyo-e style artwork. The AI successfully captures the essence of the requested style while preserving the subject's identity and maintaining compositional integrity."
+  }
+]

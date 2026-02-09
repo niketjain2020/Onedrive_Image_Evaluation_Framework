@@ -1,0 +1,239 @@
+[
+  {
+    "evaluation_id": "cbe7404c-fb89-481a-938f-a544b195fb83",
+    "timestamp": "2026-02-03T16:26:07.103540Z",
+    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\test1_adult_original.png",
+    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\img1-12-storybook.png",
+    "style": "Storybook",
+    "rubric_version": "acrue-v3",
+    "dimensions": {
+      "accuracy": {
+        "weight": 1.0,
+        "passed": 3,
+        "total": 5,
+        "pass_rate": "3/5",
+        "avg_confidence": 4.8,
+        "dimension_score": 2.88,
+        "weighted_score": 2.88,
+        "assertions": [
+          {
+            "id": "A1",
+            "question": "Does the output exhibit soft, watercolor-like illustrated textures?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image has a clear watercolor texture with soft edges and blending of colors."
+          },
+          {
+            "id": "A2",
+            "question": "Is the subject recognizable as the same person/scene from the original?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "The subject is completely different. The original was a hummingbird at a flower and the restyled image is a girl."
+          },
+          {
+            "id": "A3",
+            "question": "Does the image use a warm, inviting color palette typical of children's books?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The restyled image features warm tones like yellows, oranges, and light blues, common in children's illustrations."
+          },
+          {
+            "id": "A4",
+            "question": "Are facial expressions and poses preserved from the original?",
+            "answer": "No",
+            "confidence": 5,
+            "evidence": "There is no facial expression or pose to preserve from the original as it was a hummingbird."
+          },
+          {
+            "id": "A5",
+            "question": "Does the rendering match professional storybook illustrations?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The image has a definite hand-drawn look consistent with many storybook illustrations."
+          }
+        ]
+      },
+      "completeness": {
+        "weight": 1.0,
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "avg_confidence": 4.8,
+        "dimension_score": 4.8,
+        "weighted_score": 4.8,
+        "assertions": [
+          {
+            "id": "C1",
+            "question": "Is the storybook style applied to the entire image (no photo patches)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style is applied uniformly throughout the restyled image."
+          },
+          {
+            "id": "C2",
+            "question": "Does the background feel like it belongs in a children's book scene?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The background is simple with light, soft colors, appropriate for a children's book scene."
+          },
+          {
+            "id": "C3",
+            "question": "Are all subjects structurally intact (no broken limbs, warped faces)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The person in the image has no visible structural issues."
+          },
+          {
+            "id": "C4",
+            "question": "Is the style saturation appropriate (not too subtle, not overdone)?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The colors are vibrant and complement the subject, neither too faded nor excessively intense."
+          },
+          {
+            "id": "C5",
+            "question": "Are all elements (people, objects, background) stylistically consistent?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The person, the fruit, and the background blend seamlessly."
+          }
+        ]
+      },
+      "relevance": {
+        "weight": 0.5,
+        "passed": 4,
+        "total": 4,
+        "pass_rate": "4/4",
+        "avg_confidence": 4.75,
+        "dimension_score": 4.75,
+        "weighted_score": 2.38,
+        "assertions": [
+          {
+            "id": "R1",
+            "question": "Does the output resemble illustrations from beloved children's books?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The restyled image has strong resemblance to illustrations found in children's books."
+          },
+          {
+            "id": "R2",
+            "question": "Is the style gentle, soft, and age-appropriate for children's content?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is gentle with soft features and colors suitable for children."
+          },
+          {
+            "id": "R3",
+            "question": "Does the mood feel warm, nostalgic, and emotionally comforting?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The warm colors and friendly character create a comforting mood."
+          },
+          {
+            "id": "R4",
+            "question": "Does it avoid elements inappropriate for children?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is safe and suitable for children. There are no inappropriate elements."
+          }
+        ]
+      },
+      "usefulness": {
+        "weight": 0.5,
+        "passed": 4,
+        "total": 4,
+        "pass_rate": "4/4",
+        "avg_confidence": 4.75,
+        "dimension_score": 4.75,
+        "weighted_score": 2.38,
+        "assertions": [
+          {
+            "id": "U1",
+            "question": "Would this be suitable for a children's book page or nursery decor?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The style is well suited for children's content and would work well in a book or nursery."
+          },
+          {
+            "id": "U2",
+            "question": "Is the image free of obvious digital artifacts or glitches?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The restyled image is clean, with no obvious digital artifacts."
+          },
+          {
+            "id": "U3",
+            "question": "Would parents feel comfortable using this for family-oriented content?",
+            "answer": "Yes",
+            "confidence": 5,
+            "evidence": "The image is safe and appropriate for family use."
+          },
+          {
+            "id": "U4",
+            "question": "Is the resolution sufficient for printing?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "Based on the image appearance, the resolution seems sufficient for small to medium prints."
+          }
+        ]
+      },
+      "exceptional": {
+        "weight": 2.0,
+        "passed": 5,
+        "total": 5,
+        "pass_rate": "5/5",
+        "avg_confidence": 3.8,
+        "dimension_score": 3.8,
+        "weighted_score": 7.6,
+        "assertions": [
+          {
+            "id": "E1",
+            "question": "Does it look like it was illustrated by a professional children's book artist?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The styling and composition suggest professional quality, matching what one would expect from a storybook artist."
+          },
+          {
+            "id": "E2",
+            "question": "Does the transformation evoke feelings of warmth, joy, and childhood wonder?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "The colors and style do evoke a sense of warmth and childhood joy."
+          },
+          {
+            "id": "E3",
+            "question": "Would users be excited to share this as 'my family as a storybook illustration'?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "If the subject was their family, users may appreciate sharing the image in this style."
+          },
+          {
+            "id": "E4",
+            "question": "Does it have that 'I want to frame this' quality?",
+            "answer": "Yes",
+            "confidence": 3,
+            "evidence": "The image has a charming aesthetic suitable for framing, particularly if the subject holds sentimental value."
+          },
+          {
+            "id": "E5",
+            "question": "Does it stand out compared to other AI-generated storybook images?",
+            "answer": "Yes",
+            "confidence": 4,
+            "evidence": "It's a good image but the lack of any context from the original image makes it a little hard to evaluate compared to other AI images."
+          }
+        ]
+      }
+    },
+    "summary": {
+      "total_assertions": 23,
+      "total_passed": 21,
+      "overall_pass_rate": "21/23",
+      "overall_avg_confidence": 4.57,
+      "weighted_total": 20.04,
+      "max_score": 25.0,
+      "percentage": 80.2,
+      "grade": "A"
+    },
+    "overall_assessment": "The image was successfully restyled into the Storybook style, adopting a watercolor aesthetic with warm, inviting colors. The transformation excels in creating a consistent and age-appropriate illustration but fails to maintain the subject identity from the original, replacing the hummingbird with a girl. "
+  }
+]

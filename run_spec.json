@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "Run_2026_02_04_baseline",
+  "pipeline_version": "1.0.0",
+  "acrue_version": "v3",
+  "baseline_run_id": null,
+  "styles": ["Anime", "Pop Art", "Storybook"],
+  "image_count": 3,
+  "image_selection": {
+    "source": "onedrive_photos",
+    "criteria": "diverse_people"
+  },
+  "judges": {
+    "feasibility": {
+      "model": "gemini-2.0-flash",
+      "version": "2.0"
+    },
+    "preference": {
+      "model": "claude-opus-4-5",
+      "version": "20251101"
+    }
+  },
+  "synthesis": {
+    "feasibility_weight": 0.5,
+    "preference_weight": 0.5
+  },
+  "output_dir": "runs/Run_2026_02_04_baseline"
+}
