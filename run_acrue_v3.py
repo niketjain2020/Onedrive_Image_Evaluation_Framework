@@ -53,7 +53,7 @@ MAX_SCORE = 25.0
 
 def load_style_assertions() -> dict:
     """Load style-specific assertions from JSON file."""
-    assertions_path = Path(__file__).parent / "style_assertions.json"
+    assertions_path = Path(__file__).parent / "rubrics" / "style_assertions.json"
 
     if not assertions_path.exists():
         return {"styles": {}}
@@ -219,7 +219,7 @@ def get_mime_type(image_path: str) -> str:
 
 def load_evaluation_prompt(style_name: str, style_data: dict) -> str:
     """Load and populate the ACRUE v3 evaluation prompt template."""
-    prompt_path = Path(__file__).parent / "acrue_v3_prompt.md"
+    prompt_path = Path(__file__).parent / "rubrics" / "acrue_v3_prompt.md"
 
     if not prompt_path.exists():
         raise FileNotFoundError(f"ACRUE v3 prompt not found at: {prompt_path}")

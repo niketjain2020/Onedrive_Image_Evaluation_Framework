@@ -164,7 +164,7 @@ Grade Thresholds: A+ (90-100%), A (80-89%), B (70-79%), C (60-69%), F (<60%)"""
     doc.add_heading("Detailed Evaluation Results", level=1)
 
     # Base path for images
-    base_img_path = Path(__file__).parent.parent / ".playwright-mcp"
+    base_img_path = Path(__file__).resolve().parent.parent.parent / ".playwright-mcp"
 
     for idx, result in enumerate(results, 1):
         # Evaluation header
@@ -318,7 +318,7 @@ Grade Thresholds: A+ (90-100%), A (80-89%), B (70-79%), C (60-69%), F (<60%)"""
 
     # Save document
     if output_path is None:
-        output_path = Path(__file__).parent / "results" / "ACRUE_Evaluation_Report.docx"
+        output_path = Path(__file__).resolve().parent.parent / "results" / "ACRUE_Evaluation_Report.docx"
 
     output_path = Path(output_path)
     output_path.parent.mkdir(exist_ok=True)
@@ -329,5 +329,5 @@ Grade Thresholds: A+ (90-100%), A (80-89%), B (70-79%), C (60-69%), F (<60%)"""
 
 
 if __name__ == "__main__":
-    json_path = Path(__file__).parent / "results" / "acrue_scores.json"
+    json_path = Path(__file__).resolve().parent.parent / "results" / "acrue_scores.json"
     create_acrue_report(json_path)

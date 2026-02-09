@@ -19,13 +19,16 @@ RUNS_DIR = PROJECT_ROOT / "runs"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 LT_DEMO_DIR = PROJECT_ROOT / "lt_demo"
 SCREENSHOTS_DIR = PROJECT_ROOT / "screenshots"
+RUBRICS_DIR = PROJECT_ROOT / "rubrics"
+AGENTS_DIR = PROJECT_ROOT / "agents"
+EXAMPLES_DIR = PROJECT_ROOT / "examples"
 
 # ---------------------------------------------------------------------------
 # Asset paths
 # ---------------------------------------------------------------------------
-STYLE_ASSERTIONS_PATH = PROJECT_ROOT / "style_assertions.json"
-STYLE_DEFINITIONS_PATH = PROJECT_ROOT / "style_definitions.json"
-ACRUE_V3_PROMPT_PATH = PROJECT_ROOT / "acrue_v3_prompt.md"
+STYLE_ASSERTIONS_PATH = PROJECT_ROOT / "rubrics" / "style_assertions.json"
+STYLE_DEFINITIONS_PATH = PROJECT_ROOT / "rubrics" / "style_definitions.json"
+ACRUE_V3_PROMPT_PATH = PROJECT_ROOT / "rubrics" / "acrue_v3_prompt.md"
 RUN_SPEC_PATH = PROJECT_ROOT / "run_spec.json"
 AUTH_STATE_PATH = PROJECT_ROOT / "auth_state.json"
 EXCEL_PATH = PROJECT_ROOT / "ai_restyle_benchmark.xlsx"
@@ -87,6 +90,9 @@ if __name__ == "__main__":
     print(f"  REPORTS_DIR:           {REPORTS_DIR}")
     print(f"  LT_DEMO_DIR:          {LT_DEMO_DIR}")
     print(f"  SCREENSHOTS_DIR:       {SCREENSHOTS_DIR}")
+    print(f"  RUBRICS_DIR:           {RUBRICS_DIR}")
+    print(f"  AGENTS_DIR:            {AGENTS_DIR}")
+    print(f"  EXAMPLES_DIR:          {EXAMPLES_DIR}")
     print(f"  STYLE_ASSERTIONS_PATH: {STYLE_ASSERTIONS_PATH}")
     print(f"  STYLE_DEFINITIONS_PATH:{STYLE_DEFINITIONS_PATH}")
     print(f"  ACRUE_V3_PROMPT_PATH:  {ACRUE_V3_PROMPT_PATH}")

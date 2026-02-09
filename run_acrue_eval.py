@@ -56,7 +56,7 @@ WEIGHTS = {
 
 def load_style_definitions() -> dict:
     """Load style definitions for context injection."""
-    style_path = Path(__file__).parent / "style_definitions.json"
+    style_path = Path(__file__).parent / "rubrics" / "style_definitions.json"
 
     if not style_path.exists():
         return {"styles": {}, "default_context": {}}
@@ -67,7 +67,7 @@ def load_style_definitions() -> dict:
 
 def load_style_assertions() -> dict:
     """Load style-specific assertions for ACRUE v2."""
-    assertions_path = Path(__file__).parent / "style_assertions.json"
+    assertions_path = Path(__file__).parent / "rubrics" / "style_assertions.json"
 
     if not assertions_path.exists():
         return {"styles": {}}
@@ -287,16 +287,16 @@ def load_evaluation_prompt(style_name: str, use_legacy: bool = False, use_v2: bo
     else:
         prompt_file = "acrue_restyle_prompt.md"
 
-    prompt_path = Path(__file__).parent / prompt_file
+    prompt_path = Path(__file__).parent / "rubrics" / prompt_file
 
     # Fall back to v1 restyle if v2 doesn't exist
     if use_v2 and not prompt_path.exists():
-        prompt_path = Path(__file__).parent / "acrue_restyle_prompt.md"
+        prompt_path = Path(__file__).parent / "rubrics" / "acrue_restyle_prompt.md"
         use_v2 = False
 
     # Fall back to legacy if new prompt doesn't exist
     if not prompt_path.exists():
-        prompt_path = Path(__file__).parent / "acrue_evaluation_prompt.md"
+        prompt_path = Path(__file__).parent / "rubrics" / "acrue_evaluation_prompt.md"
 
     if not prompt_path.exists():
         raise FileNotFoundError(f"Evaluation prompt not found at: {prompt_path}")

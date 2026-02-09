@@ -174,13 +174,13 @@ restyle_tests/
   run_dual_llm_pipeline.py  # Dual-LLM (Gemini + Opus) pipeline
   restyle_agent.py          # Playwright automation agent
   parallel_runner.py        # Parallel agent runner
-  style_assertions.json     # Style-specific ACRUE assertions
-  style_definitions.json    # Style evaluation context
-  acrue_v3_prompt.md        # ACRUE v3 prompt template
   run_spec.json             # Current run configuration
   requirements.txt          # Python dependencies
   .env.example              # Environment variable template
   .mcp.json.example         # MCP server config template
+  rubrics/                  # Evaluation rubrics, prompts & assertions
+  agents/                   # Agent instruction files
+  examples/                 # Sample configs & demo data
   reports/                  # Report generators (DOCX, PPTX)
   results/                  # Generated reports, presentations
   runs/                     # Per-run output (one dir per benchmark run)

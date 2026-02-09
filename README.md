@@ -86,10 +86,10 @@ compare_runs.py            # Baseline comparison CLI
 run_dual_llm_pipeline.py   # Dual-LLM (Gemini + Opus) pipeline
 restyle_agent.py           # Playwright automation agent
 parallel_runner.py         # Parallel agent runner
-style_assertions.json      # Style-specific ACRUE assertions
-style_definitions.json     # Style evaluation context
-acrue_v3_prompt.md         # ACRUE v3 prompt template
 run_spec.json              # Run configuration
+rubrics/                   # Evaluation rubrics, prompts & assertions
+agents/                    # Agent instruction files
+examples/                  # Sample configs & demo data
 reports/                   # Report generators (DOCX, PPTX)
 results/                   # Generated reports & presentations
 runs/                      # Per-run output directories
