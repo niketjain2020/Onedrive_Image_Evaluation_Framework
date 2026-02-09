@@ -73,7 +73,12 @@ FINAL RESULT
 
 ### Option 2: Dual-LLM Evaluation
 
-Run both Gemini (feasibility scoring) and Opus (preference ranking) on the same images. Produces a DOCX report with side-by-side before/after images and scores from both judges.
+Use two models that evaluate from different angles — then synthesize a final verdict:
+
+- **Gemini** (vision specialist) scores **technical feasibility**: does the transformation look correct? Are the style markers present? Any artifacts or structural errors?
+- **Opus** (reasoning specialist) scores **creative preference**: which output would a user actually choose? Does it feel polished, shareable, worth framing?
+
+Each judge scores independently using the same ACRUE rubric. The synthesis step combines both rankings with configurable weights (default 50/50) to produce a consensus result. Neither model alone sees the full picture — Gemini catches technical flaws that Opus misses, and Opus catches "feels wrong" issues that pass technical checks.
 
 ```bash
 python run_dual_llm_pipeline.py \
@@ -82,7 +87,7 @@ python run_dual_llm_pipeline.py \
     --styles "Storybook" "Toy Model"
 ```
 
-Requires both `GEMINI_API_KEY` and `ANTHROPIC_API_KEY`.
+Produces a DOCX report with side-by-side before/after images, per-judge scores, and a consensus grade. Requires both `GEMINI_API_KEY` and `ANTHROPIC_API_KEY`.
 
 ### Option 3: Full Pipeline
 
@@ -119,6 +124,34 @@ v3:  Rubric -> Assertions + Confidence -> Score  (grounded AND nuanced)
 | **E** - Exceptional Value | 2.0 | Does it exceed expectations — the "wow" factor? |
 
 Grades: A+ (90%+), A (80%+), B (70%+), C (60%+), F (<60%)
+
+## Why Two Judges
+
+A single LLM judge has blind spots. This framework is designed around two complementary models:
+
+| | Gemini (Feasibility) | Opus (Preference) |
+|---|---|---|
+| **Strength** | Best-in-class vision model — sees pixel-level detail | Strong reasoning — evaluates holistic quality and taste |
+| **Asks** | "Is the style technically correct?" | "Would a user actually pick this one?" |
+| **Catches** | Artifacts, structural errors, incomplete transforms | Uncanny outputs that pass technical checks but feel wrong |
+
+Both judges use the same ACRUE rubric, but weight their attention differently. In the full pipeline, their independent rankings are combined with a weighted formula:
+
+```
+final_score = (feasibility_weight * gemini_rank) + (preference_weight * opus_rank)
+```
+
+The weights are configurable in `run_spec.json` (default: 50/50). You can shift toward technical rigor (70/30) or user preference (30/70) depending on your use case.
+
+### Swapping in other models
+
+The architecture is model-agnostic. As new vision models enter the market, you can swap judges by changing:
+
+- `GEMINI_MODEL` in `.env` — any Gemini model (Flash, Pro, etc.)
+- `judges.feasibility.model` and `judges.preference.model` in `run_spec.json` — for the full pipeline
+- Or call `run_acrue_v3.py` directly with a different model via the Gemini API
+
+The rubric and assertions stay the same — only the judge changes.
 
 ## Customizing Assertions
 
