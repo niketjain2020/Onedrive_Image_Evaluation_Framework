@@ -1,6 +1,6 @@
-# Image Evaluation Framework
+# Image Evaluation Framework - LLM As a judge
 
-Measure AI image transformation quality using LLM judges (Gemini + Opus) and the ACRUE v3 scoring rubric. No human raters needed.
+Measure AI image transformation quality using LLM judges (Gemini + Opus) and the ACRUE v3 scoring rubric.
 
 ## What This Does
 
