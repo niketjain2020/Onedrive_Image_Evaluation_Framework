@@ -200,7 +200,7 @@ This is the CI gate story: run the benchmark before and after a model change. If
 
 ## How can I try this?
 
-The framework is open source: [Onedrive_Image_Evaluation_Framework](https://github.com/niketjain2020/Onedrive_Image_Evaluation_Framework)
+The framework is open source: [Image_Evaluation_Framework](https://github.com/niketjain2020/Image_Evaluation_Framework)
 
 What's in the repo:
 
@@ -214,8 +214,8 @@ What's in the repo:
 Quick start:
 
 ```bash
-git clone https://github.com/niketjain2020/Onedrive_Image_Evaluation_Framework.git
-cd Onedrive_Image_Evaluation_Framework
+git clone https://github.com/niketjain2020/Image_Evaluation_Framework.git
+cd Image_Evaluation_Framework
 pip install google-generativeai python-docx
 set GEMINI_API_KEY=your_key_here
 python run_acrue_v3.py -o photo.jpg -r styled.png -s "Storybook"

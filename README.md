@@ -35,8 +35,8 @@ v3:  image -> LLM -> Yes/No + confidence -> code -> score  (grounded AND nuanced
 You need a Gemini API key and two images. That's it.
 
 ```bash
-git clone https://github.com/niketjain2020/Onedrive_Image_Evaluation_Framework.git
-cd Onedrive_Image_Evaluation_Framework
+git clone https://github.com/niketjain2020/Image_Evaluation_Framework.git
+cd Image_Evaluation_Framework
 pip install -r requirements.txt
 set GEMINI_API_KEY=your-key-here
 
