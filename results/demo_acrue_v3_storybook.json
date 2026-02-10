@@ -2,8 +2,8 @@
   {
     "evaluation_id": "54c2b69f-c315-4ecf-94b0-77c44f23028d",
     "timestamp": "2026-02-05T05:25:09.551477Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\test1_adult_original.png",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\img1-12-storybook.png",
+    "original_image": "screenshots/test1_adult_original.png",
+    "restyled_image": "screenshots/img1-12-storybook.png",
     "style": "Storybook",
     "rubric_version": "acrue-v3",
     "dimensions": {

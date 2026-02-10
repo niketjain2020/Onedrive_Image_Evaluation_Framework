@@ -2,8 +2,8 @@
   {
     "evaluation_id": "76f6c2f2-542e-49ce-b308-5e3cad95c2fc",
     "timestamp": "2026-02-05T05:44:20.939765Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\test1_adult_original.png",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\img1-03-anime.png",
+    "original_image": "screenshots/test1_adult_original.png",
+    "restyled_image": "screenshots/img1-03-anime.png",
     "style": "Anime",
     "rubric_version": "acrue-v3",
     "dimensions": {

@@ -2,8 +2,8 @@
   {
     "evaluation_id": "6f7abf51-cccf-4f13-baa9-ad9138cb6b8e",
     "timestamp": "2026-02-03T09:31:35.694529Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\qa_step1_viewer_opened.png",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\img1-12-storybook.png",
+    "original_image": "screenshots/qa_step1_viewer_opened.png",
+    "restyled_image": "screenshots/img1-12-storybook.png",
     "style": "Storybook",
     "rubric_version": "acrue-v2",
     "scores": {
@@ -215,8 +215,8 @@
   {
     "evaluation_id": "03c7f9a7-bfc9-45ec-86a5-d7c8178d0fd9",
     "timestamp": "2026-02-03T09:32:03.511934Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\qa_step1_viewer_opened.png",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\img1-03-anime.png",
+    "original_image": "screenshots/qa_step1_viewer_opened.png",
+    "restyled_image": "screenshots/img1-03-anime.png",
     "style": "Anime",
     "rubric_version": "acrue-v2",
     "scores": {
@@ -428,8 +428,8 @@
   {
     "evaluation_id": "613a5309-c580-4a49-845a-b2c5454309e8",
     "timestamp": "2026-02-03T10:31:31.679263Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\gemini-mcp\\.playwright-mcp\\pipeline_img1_portrait.png",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\gemini-mcp\\.playwright-mcp\\img1_storybook_styled.png",
+    "original_image": "screenshots/pipeline_img1_portrait.png",
+    "restyled_image": "screenshots/img1_storybook_styled.png",
     "style": "Storybook",
     "error": "Failed to parse response: Expecting property name enclosed in double quotes: line 153 column 9 (char 6478)",
     "raw_response": "{\n  \"style\": \"Storybook\",\n  \"assertions\": {\n    \"accuracy\": {\n      \"results\": [\n        {\n          \"id\": \"A1\",\n          \"question\": \"Does the output exhibit soft, watercolor-like illustrated textures?\",\n          \"answer\": \"Yes\",\n          \"evidence\": \"The image has a noticeable watercolor texture.\"\n        },\n        {\n          \"id\": \"A2\",\n          \"question\": \"Is the subject recognizable as the same person/scene from the original?\",\n          \"answer\": \"Yes\",\n          \"evidence\": \"The subject's facial features and pose are preserved, making him recognizable.\"\n        },\n        {\n          \"id\": \"A3\",\n          \"question\": \"Does the image use a warm, inviting color palette typical of children's books?\",\n          \"answer\": \"Yes\",\n          \"evidence\": \"The color palette is soft and inviting, characteristic of many children's books, though muted.\"\n        },\n        {\n          \"id\": \"A4\",\n          \"question\": \"Are facial expressions and poses preserved from the original?\",\n   "

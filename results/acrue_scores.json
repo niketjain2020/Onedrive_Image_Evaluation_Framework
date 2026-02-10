@@ -2,8 +2,8 @@
   {
     "evaluation_id": "5d26ac4f-87a4-457a-a605-fa29d906d5c6",
     "timestamp": "2026-02-01T14:11:09.891489Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\P1.jpeg",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\I2.jpeg",
+    "original_image": "screenshots/P1.jpeg",
+    "restyled_image": "screenshots/I2.jpeg",
     "style": "Movie Poster",
     "scores": {
       "accuracy": {
@@ -133,8 +133,8 @@
   {
     "evaluation_id": "9b322e1f-97ff-4077-ba1a-491589595359",
     "timestamp": "2026-02-01T14:14:14.918285Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\P1.jpeg",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\I2.jpeg",
+    "original_image": "screenshots/P1.jpeg",
+    "restyled_image": "screenshots/I2.jpeg",
     "style": "Movie Poster",
     "scores": {
       "accuracy": {
@@ -264,8 +264,8 @@
   {
     "evaluation_id": "eef7732a-1783-42e2-a0cf-8845480b62fe",
     "timestamp": "2026-02-01T14:14:22.108706Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\P1.jpeg",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\P3.jpeg",
+    "original_image": "screenshots/P1.jpeg",
+    "restyled_image": "screenshots/P3.jpeg",
     "style": "Original (No Style)",
     "scores": {
       "accuracy": {
@@ -395,8 +395,8 @@
   {
     "evaluation_id": "b76e66fb-2992-4063-b7b0-055cc7da95d8",
     "timestamp": "2026-02-01T15:00:21.703206Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\I2.jpeg",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\img2-01-movie-poster.png",
+    "original_image": "screenshots/I2.jpeg",
+    "restyled_image": "screenshots/img2-01-movie-poster.png",
     "style": "Movie Poster",
     "rubric_version": "restyle-v1",
     "scores": {
@@ -527,8 +527,8 @@
   {
     "evaluation_id": "998ea3d0-dc21-4909-98c4-c23607446b9d",
     "timestamp": "2026-02-01T15:00:41.098951Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\I2.jpeg",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\img2-03-anime.png",
+    "original_image": "screenshots/I2.jpeg",
+    "restyled_image": "screenshots/img2-03-anime.png",
     "style": "Anime",
     "rubric_version": "restyle-v1",
     "scores": {
@@ -659,8 +659,8 @@
   {
     "evaluation_id": "8c7f2064-8e05-4116-a728-e116cd521679",
     "timestamp": "2026-02-01T15:03:24.773901Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\test1_adult_original.png",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\prompt01_renaissance_oil_painting.png",
+    "original_image": "screenshots/test1_adult_original.png",
+    "restyled_image": "screenshots/prompt01_renaissance_oil_painting.png",
     "style": "Renaissance Oil Painting",
     "rubric_version": "restyle-v1",
     "scores": {
@@ -791,8 +791,8 @@
   {
     "evaluation_id": "fe56614e-f9f0-40e1-991e-90322a7c9fba",
     "timestamp": "2026-02-01T15:03:51.103335Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\test1_adult_original.png",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\restyle_tests\\..\\.playwright-mcp\\prompt05_japanese_ukiyoe.png",
+    "original_image": "screenshots/test1_adult_original.png",
+    "restyled_image": "screenshots/prompt05_japanese_ukiyoe.png",
     "style": "Japanese Ukiyo-e",
     "rubric_version": "restyle-v1",
     "scores": {

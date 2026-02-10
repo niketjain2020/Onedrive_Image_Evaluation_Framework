@@ -2,8 +2,8 @@
   {
     "evaluation_id": "cbe7404c-fb89-481a-938f-a544b195fb83",
     "timestamp": "2026-02-03T16:26:07.103540Z",
-    "original_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\test1_adult_original.png",
-    "restyled_image": "C:\\Users\\nikj\\OneDrive - Microsoft\\Desktop\\Evals\\.playwright-mcp\\img1-12-storybook.png",
+    "original_image": "screenshots/test1_adult_original.png",
+    "restyled_image": "screenshots/img1-12-storybook.png",
     "style": "Storybook",
     "rubric_version": "acrue-v3",
     "dimensions": {
